@@ -12,6 +12,9 @@
 */
 Route::get('/quiz/teste', 'QuizController@home');
 
+Route::get('/quiz/evaluate', 'QuizController@evaluate');
+
+
 Route::get('/teste', 'TestController@home');
 
 
