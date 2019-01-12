@@ -38,10 +38,10 @@
               <a class="nav-link" href="{{ url('quiz/teste') }}">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">Equipe</a>
+              <a class="nav-link" href="{{ url('quiz/about') }}">Equipe</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contato</a>
+              <a class="nav-link" href="{{ url('quiz/contact') }}">Contato</a>
             </li>
           </ul>
         </div>
@@ -68,6 +68,15 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <h3> <span class="label label-default">Avaliação de Softwares Educacionais</span></h3>
+            
+            <hr>
+
+            <div class="form-group row">
+                <label for="inputSoftware" class="col-sm-2 col-form-label">Software</label>
+                <div class="col-sm-10">
+                  <input class="form-control" id="inputPassword" placeholder="Software para ser avaliado">
+                </div>
+            </div>
             
             <hr>
 

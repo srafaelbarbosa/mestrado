@@ -26,4 +26,14 @@ class QuizController extends Controller
         die(var_dump($quiz));
     	return view('quiz.result');
     }
+    
+    public function contact()
+    {
+    	return view('quiz.contact');
+    }
+
+    public function about()
+    {
+        return view('quiz.about');
+    }
 }

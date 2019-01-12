@@ -14,6 +14,12 @@ Route::get('/quiz/teste', 'QuizController@home');
 
 Route::get('/quiz/evaluate', 'QuizController@evaluate');
 
+Route::get('/quiz/contact', 'QuizController@contact');
+
+Route::get('/quiz/about', 'QuizController@about');
+
+
+
 
 Route::get('/quiz/result/{id}', 'QuizController@result');
 
