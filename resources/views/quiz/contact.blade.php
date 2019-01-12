@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Home</title>
+    <title>Contato</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ url('/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -50,16 +49,14 @@
     </nav>
 
     <!-- Page Header -->
-
-    <header class="masthead" style="background-image: url({{ url('/img/home.jpg') }});">
-
+    <header class="masthead" style="background-image: url({{ url('/img/contact.jpg') }});">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="site-heading">
-              <h1>Avaliação e Guia para Desenvolvimento de Softwares Educacionais</h1>
-              <span class="subheading">Uma abordagem utilizando Indicadores e Determinantes de Inovação</span>
+            <div class="page-heading">
+              <h1>Fala com a gente :)</h1>
+              <span class="subheading">Alguma dúvida? Sugestão?</span>
             </div>
           </div>
         </div>
@@ -70,50 +67,54 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-preview">
-            <a href="{{ url('quiz/evaluate') }}">
-              <h2 class="post-title">
-                Avaliação de Softwares Educacionais pelos Indicadores de Inovação
-              </h2>
-              <h3 class="post-subtitle">
-                Responda esse rápido questionário e avalie o Software Educacional desejado.
-              </h3>
-            </a>
-          </div>
-          <hr>
-          <div class="post-preview">
-            <a href="Quiz-Determinantes.html">
-              <h2 class="post-title">
-                Guia de desenvolvimento do Software Educacional pelos Determinantes de Inovação.
-              </h2>
-              <h3 class="post-subtitle">
-                Avalie se seu desenvolvimento do Software Educacional está sendo realmente inovador.
-              </h3>
-            </a>
-          </div>
-          <hr>
-          <!-- Pager -->
-          <!--<div class="clearfix">
-            <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-          </div>-->
+          <p>Quer entrar em contato? Preencha o formulário abaixo para nos mandar alguma mensagem e entraremos em contato assim que possível!</p>
+          <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+          <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+          <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>Nome</label>
+                <input type="text" class="form-control" placeholder="Nome" id="name" required data-validation-required-message="Opa! Não esqueça seu nome. :)">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="Endereço de Email" id="email" required data-validation-required-message="Opa! Não esqueça seu email. :)">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>Mensagem</label>
+                <textarea rows="5" class="form-control" placeholder="Mensagem" id="message" required data-validation-required-message="Escreva sua mensagem. :)"></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <br>
+            <div id="success"></div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
 
     <hr>
 
-    <!-- Footer -->
-
-
     <!-- Bootstrap core JavaScript -->
-
     <script type="text/javascript" src="{{ url('/js/jquery.min.js') }}"></script>
     <script type="text/javascript" src="{{ url('/js/bootstrap.bundle.min.js') }}"></script>
 
+    <!-- Contact Form JavaScript -->
+    <script type="text/javascript" src="{{ url('/js/jqBootstrapValidation.js') }}"></script>
+    <script type="text/javascript" src="{{ url('/js/contact_me.js') }}"></script>
 
     <!-- Custom scripts for this template -->
     <script type="text/javascript" src="{{ url('/js/clean-blog.min.js') }}"></script>
-
 
   </body>
 

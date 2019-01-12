@@ -17,4 +17,9 @@ class QuizController extends Controller
     {
     	return view('quiz.evaluate');
     }
+
+    public function contact()
+    {
+    	return view('quiz.contact');
+    }
 }
