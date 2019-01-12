@@ -22,4 +22,9 @@ class QuizController extends Controller
     {
     	return view('quiz.contact');
     }
+
+    public function about()
+    {
+        return view('quiz.about');
+    }
 }

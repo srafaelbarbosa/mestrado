@@ -39,7 +39,7 @@
               <a class="nav-link" href="{{ url('quiz/teste') }}">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">Equipe</a>
+              <a class="nav-link" href="{{ url('quiz/about') }}">Equipe</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ url('quiz/contact') }}">Contato</a>
