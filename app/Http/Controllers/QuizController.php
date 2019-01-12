@@ -10,6 +10,6 @@ class QuizController extends Controller
 
     public function home()
     {
-        die('teste');
+        return view('quiz.home');
     }
 }
