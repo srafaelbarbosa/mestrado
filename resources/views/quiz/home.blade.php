@@ -36,7 +36,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="{{ url('quiz/teste') }}">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">Equipe</a>
@@ -50,7 +50,9 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/home.jpg')">
+
+    <header class="masthead" style="background-image: url({{ url('/img/home.jpg') }});">
+
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
@@ -69,7 +71,7 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-preview">
-            <a href="Quiz-Indicadores.html">
+            <a href="{{ url('quiz/evaluate') }}">
               <h2 class="post-title">
                 Avaliação de Softwares Educacionais pelos Indicadores de Inovação
               </h2>
@@ -104,11 +106,14 @@
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript" src="{{ url('/js/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url('/js/bootstrap.bundle.min.js') }}"></script>
+
 
     <!-- Custom scripts for this template -->
-    <script src="js/clean-blog.min.js"></script>
+    <script type="text/javascript" src="{{ url('/js/clean-blog.min.js') }}"></script>
+
 
   </body>
 

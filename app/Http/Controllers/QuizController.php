@@ -12,4 +12,9 @@ class QuizController extends Controller
     {
         return view('quiz.home');
     }
+
+    public function evaluate()
+    {
+    	return view('quiz.evaluate');
+    }
 }
