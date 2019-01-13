@@ -89,6 +89,8 @@
     </style>
 
     <script>
+
+        var total  =  {!! json_encode($total) !!};
         // Themes begin
         am4core.useTheme(am4themes_dataviz);
         am4core.useTheme(am4themes_animated);
@@ -136,7 +138,7 @@
         chart.setTimeout(randomValue, 2000);
 
         function randomValue() {
-            hand.showValue(Math.random() * 100, 1000, am4core.ease.cubicOut);
+            hand.showValue(total * 100, 1000, am4core.ease.cubicOut);
             chart.setTimeout(randomValue, 2000);
         }
     </script>

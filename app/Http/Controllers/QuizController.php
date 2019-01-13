@@ -23,8 +23,9 @@ class QuizController extends Controller
     {
 
         $quiz = Quiz::find($id);
-        die(var_dump($quiz));
-    	return view('quiz.result');
+        $total = self::calculateResult($quiz);
+
+        return view('quiz.result', ['total' => $total ]);
     }
     
     public function contact()
@@ -35,5 +36,15 @@ class QuizController extends Controller
     public function about()
     {
         return view('quiz.about');
+    }
+
+    private static function calculateResult($quiz)
+    {
+        
+        $total = $quiz->question1 + $quiz->question2 + $quiz->question3+ $quiz->question4+ $quiz->question5+ $quiz->question6+ $quiz->question7+ $quiz->question8+ $quiz->question9+ $quiz->question10
+        + $quiz->question11+ $quiz->question12+ $quiz->question13+ $quiz->question14+ $quiz->question15;
+        
+        $total = $total/45;
+        return round($total,2);
     }
 }
