@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/quiz/teste', 'QuizController@home');
+Route::get('/quiz/home', 'QuizController@home');
 
 Route::get('/quiz/evaluate', 'QuizController@evaluate');
 

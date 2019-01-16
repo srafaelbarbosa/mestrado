@@ -23,6 +23,9 @@ class QuizController extends Controller
     {
 
         $quiz = Quiz::find($id);
+        if(is_null($quiz)){
+            return redirect('quiz/home');
+        }
         $total = self::calculateResult($quiz);
 
         return view('quiz.result', ['total' => $total ]);
