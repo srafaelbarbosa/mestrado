@@ -74,7 +74,7 @@
             <div class="form-group row">
                 <label for="inputSoftware" class="col-sm-2 col-form-label">Software</label>
                 <div class="col-sm-10">
-                  <input class="form-control" id="inputPassword" placeholder="Software para ser avaliado">
+                  <input class="form-control" id="inputSoftware" placeholder="Software para ser avaliado">
                 </div>
             </div>
             

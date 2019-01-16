@@ -29,7 +29,8 @@ class QuizController extends Controller
         $total = self::calculateResult($quiz);
         //adicionar uma variável e depois na index
         $compartilhamento = self::ParcialCalc($quiz);
-        return view('quiz.result', ['total' => $total, 'compartilhamento' => $compartilhamento ]);
+        $nomeSoftware = $quiz->software;
+        return view('quiz.result', ['total' => $total, 'compartilhamento' => $compartilhamento, 'nomeSoftware' => $nomeSoftware ]);
     }
     
     public function contact()

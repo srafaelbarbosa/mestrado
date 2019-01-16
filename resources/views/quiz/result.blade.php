@@ -72,10 +72,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
-                    <h3> <span class="label label-default">Avaliação de Softwares Educacionais</span></h3>
+                    <h4> <span class="label label-default">Resultado da avaliação do Software: {{ $nomeSoftware }}</span></h4>
+                
                
                     <div id="chartdiv"></div>
                 </div>
+            </div>
+            <div>
             </div>
             <div class="row">
                 @if($compartilhamento)
