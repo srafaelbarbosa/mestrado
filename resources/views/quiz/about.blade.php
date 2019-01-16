@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="{{ url('/css/bootstrap.min.css') }}" rel="stylesheet">
+    
 
     <!-- Custom fonts for this template -->
     <link href="{{ url('/css/all.min.css') }}" rel="stylesheet" type="text/css">
