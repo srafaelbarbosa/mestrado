@@ -40,11 +40,15 @@ class QuizController extends Controller
 
     private static function calculateResult($quiz)
     {
+
+        $total  = 0;
+        foreach ($quiz->getAttributes() as $key => $value) {
+            if($value == 3){
+                $total ++;
+            }
+        }
         
-        $total = $quiz->question1 + $quiz->question2 + $quiz->question3+ $quiz->question4+ $quiz->question5+ $quiz->question6+ $quiz->question7+ $quiz->question8+ $quiz->question9+ $quiz->question10
-        + $quiz->question11+ $quiz->question12+ $quiz->question13+ $quiz->question14+ $quiz->question15;
-        
-        $total = $total/45;
+        $total = $total/15;
         return round($total,2);
     }
 }
