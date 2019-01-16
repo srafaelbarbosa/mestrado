@@ -77,6 +77,11 @@
                     <div id="chartdiv"></div>
                 </div>
             </div>
+            <div class="row">
+                @if($compartilhamento)
+                <h1> Você precisa melhorar nas questões tal e tal </h1>
+                @endif
+            </div>
         </div>
     <article>
 

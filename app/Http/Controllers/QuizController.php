@@ -24,8 +24,9 @@ class QuizController extends Controller
 
         $quiz = Quiz::find($id);
         $total = self::calculateResult($quiz);
-
-        return view('quiz.result', ['total' => $total ]);
+        //adicionar uma variável e depois na index
+        $compartilhamento = self::ParcialCalc($quiz);
+        return view('quiz.result', ['total' => $total, 'compartilhamento' => $compartilhamento ]);
     }
     
     public function contact()
@@ -51,4 +52,24 @@ class QuizController extends Controller
         $total = $total/15;
         return round($total,2);
     }
+    //adicionar função com seção de perguntas
+    private static function ParcialCalc($quiz)
+    {
+        $total = 0;
+        if ($quiz->question6 == 3) {
+            $total++;
+        }
+        if ($quiz->question7 == 3) {
+            $total++;
+        }
+        if ($quiz->question8 == 3) {
+            $total++;
+        }
+        return $total!=3;
+        
+    }
 }
+
+
+//retorna o valor da pergunta respondida
+//$quiz->question1 
