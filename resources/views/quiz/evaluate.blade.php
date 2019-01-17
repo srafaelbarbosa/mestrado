@@ -80,212 +80,301 @@
             
             <hr>
 
-            <h5>Pergunta 1</h5>
+            <h5>O desenvolvimento do software é considerada a participação de algum especialista educacional?</h5>
             
             <div class="radio">
-              <label><input type="radio" name="optradio1"> Concorda</label>
+              <label><input type="radio" name="optradio1"> Concorda Totalmente</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio1"> Não sabe</label>
+              <label><input type="radio" name="optradio1"> Concorda </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio1"> Não sabe </label>
             </div>
             <div class="radio">
               <label><input type="radio" name="optradio1"> Discorda</label>
             </div>
-
+            <div class="radio">
+              <label><input type="radio" name="optradio1"> Discorda Totalmente</label>
+            </div>
             <hr>
 
-            <h5>Pergunta 2</h5>
+            <h5>O produto de software é integrado com o currículo da instituição que será aplicado?</h5>
             
             <div class="radio">
-              <label><input type="radio" name="optradio2"> Concorda</label>
+              <label><input type="radio" name="optradio2"> Concorda Totalmente</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio2"> Não sabe</label>
+              <label><input type="radio" name="optradio2"> Concorda </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio2"> Discorda</label>
-            </div>
-
-            <hr>
-
-            <h5>Pergunta 3</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio3"> Concorda</label>
+              <label><input type="radio" name="optradio2"> Não sabe </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio3"> Não sabe</label>
+              <label><input type="radio" name="optradio2"> Discorda </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio3"> Discorda</label>
+              <label><input type="radio" name="optradio2"> Discorda Totalmente </label>
             </div>
 
             <hr>
 
-            <h5>Pergunta 4</h5>
+            <h5>Existe preocupação sobre o registro do software?</h5>
             
             <div class="radio">
-              <label><input type="radio" name="optradio4"> Concorda</label>
+              <label><input type="radio" name="optradio3"> Concorda Totalmente </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio4"> Não sabe</label>
+              <label><input type="radio" name="optradio3"> Concorda </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio4"> Discorda</label>
+              <label><input type="radio" name="optradio3"> Não sabe </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio3"> Discorda </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio3"> Discorda Totalmente</label>
             </div>
 
             <hr>
 
-            <h5>Pergunta 5</h5>
+            <h5>O professor recebe um treinamento para melhor uso e entendimento do software?</h5>
             
             <div class="radio">
-              <label><input type="radio" name="optradio5"> Concorda</label>
+              <label><input type="radio" name="optradio4"> Concorda Totalmente </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio5"> Não sabe</label>
+              <label><input type="radio" name="optradio4"> Concorda </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio5"> Discorda</label>
+              <label><input type="radio" name="optradio4"> Não sabe </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio4"> Discorda </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio4"> Discorda Totalmente</label>
+            </div>
+
+            <hr>
+
+            <h5>Software pode ser usado como extensão fora da sala?</h5>
+            
+            <div class="radio">
+              <label><input type="radio" name="optradio5"> Concorda Totalmente </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio5"> Concorda </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio5"> Não sabe </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio5"> Discorda </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio5"> Discorda Totalmente</label>
             </div>
             
             <hr>
 
-            <h5>Pergunta 6</h5>
+            <h5>Software não requer alta capacidade  de processamento computacional</h5>
             
             <div class="radio">
-              <label><input type="radio" name="optradio6"> Concorda</label>
+              <label><input type="radio" name="optradio6"> Concorda Totalmente </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio6"> Não sabe</label>
+              <label><input type="radio" name="optradio6"> Concorda </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio6"> Discorda</label>
-            </div>
-            
-            <hr>
-
-            <h5>Pergunta 7</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio7"> Concorda</label>
+              <label><input type="radio" name="optradio6"> Não sabe </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio7"> Não sabe</label>
+              <label><input type="radio" name="optradio6"> Discorda </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio7"> Discorda</label>
+              <label><input type="radio" name="optradio6"> Discorda Totalmente</label>
             </div>
             
             <hr>
 
-            <h5>Pergunta 8</h5>
+            <h5>Software tem um custo de manutenção baixo</h5>
             
             <div class="radio">
-              <label><input type="radio" name="optradio8"> Concorda</label>
+              <label><input type="radio" name="optradio7"> Concorda Totalmente </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio8"> Não sabe</label>
+              <label><input type="radio" name="optradio7"> Concorda </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio8"> Discorda</label>
-            </div>
-            
-            <hr>
-
-            <h5>Pergunta 9</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio9"> Concorda</label>
+              <label><input type="radio" name="optradio7"> Não sabe </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio9"> Não sabe</label>
+              <label><input type="radio" name="optradio7"> Discorda </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio9"> Discorda</label>
+              <label><input type="radio" name="optradio7"> Discorda Totalmente</label>
             </div>
             
             <hr>
 
-            <h5>Pergunta 10</h5>
+            <h5>Software é de licença gratuita ou de baixo custo</h5>
             
             <div class="radio">
-              <label><input type="radio" name="optradio10"> Concorda</label>
+              <label><input type="radio" name="optradio8"> Concorda Totalmente </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio10"> Não sabe</label>
+              <label><input type="radio" name="optradio8"> Concorda </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio10"> Discorda</label>
-            </div>
-            
-            <hr>
-
-            <h5>Pergunta 11</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio11"> Concorda</label>
+              <label><input type="radio" name="optradio8"> Não sabe </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio11"> Não sabe</label>
+              <label><input type="radio" name="optradio8"> Discorda </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio11"> Discorda</label>
+              <label><input type="radio" name="optradio8"> Discorda Totalmente</label>
             </div>
             
             <hr>
 
-            <h5>Pergunta 12</h5>
+            <h5>O software permite uma avaliação e acompanhamento do desempenho individualizado do estudante</h5>
             
             <div class="radio">
-              <label><input type="radio" name="optradio12"> Concorda</label>
+              <label><input type="radio" name="optradio9"> Concorda Totalmente </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio12"> Não sabe</label>
+              <label><input type="radio" name="optradio9"> Concorda </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio12"> Discorda</label>
-            </div>
-            
-            <hr>
-
-            <h5>Pergunta 13</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio13"> Concorda</label>
+              <label><input type="radio" name="optradio9"> Não sabe </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio13"> Não sabe</label>
+              <label><input type="radio" name="optradio9"> Discorda </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio13"> Discorda</label>
+              <label><input type="radio" name="optradio9"> Discorda Totalmente</label>
             </div>
             
             <hr>
 
-            <h5>Pergunta 14</h5>
+            <h5>O software permite a aplicação fora da sala de aula?</h5>
             
             <div class="radio">
-              <label><input type="radio" name="optradio14"> Concorda</label>
+              <label><input type="radio" name="optradio10"> Concorda Totalmente </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio14"> Não sabe</label>
+              <label><input type="radio" name="optradio10"> Concorda </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio14"> Discorda</label>
+              <label><input type="radio" name="optradio10"> Não sabe </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio10"> Discorda </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio10"> Discorda Totalmente</label>
             </div>
             
             <hr>
 
-            <h5>Pergunta 15</h5>
+            <h5>O software permite a personalização do aprendizado?</h5>
             
             <div class="radio">
-              <label><input type="radio" name="optradio15"> Concorda</label>
+              <label><input type="radio" name="optradio11"> Concorda Totalmente </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio15"> Não sabe</label>
+              <label><input type="radio" name="optradio11"> Concorda </label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio15"> Discorda</label>
+              <label><input type="radio" name="optradio11"> Não sabe </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio11"> Discorda </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio11"> Discorda Totalmente</label>
+            </div>
+            
+            <hr>
+
+            <h5>O software foi testado por especialista?</h5>
+            
+            <div class="radio">
+              <label><input type="radio" name="optradio12"> Concorda Totalmente </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio12"> Concorda </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio12"> Não sabe </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio12"> Discorda </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio12"> Discorda Totalmente</label>
+            </div>
+            
+            <hr>
+
+            <h5>O software está permitindo o trabalho em equipe?</h5>
+            
+            <div class="radio">
+              <label><input type="radio" name="optradio13"> Concorda Totalmente </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio13"> Concorda </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio13"> Não sabe </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio13"> Discorda </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio13"> Discorda Totalmente</label>
+            </div>
+            
+            <hr>
+
+            <h5>O professor consegue acompanhar o progresso do aluno?</h5>
+            
+            <div class="radio">
+              <label><input type="radio" name="optradio14"> Concorda Totalmente </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio14"> Concorda </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio14"> Não sabe </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio14"> Discorda </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio14"> Discorda Totalmente</label>
+            </div>
+            
+            <hr>
+
+            <h5>Software é intuitivo para uso independente do aluno?</h5>
+            
+            <div class="radio">
+              <label><input type="radio" name="optradio15"> Concorda Totalmente </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio15"> Concorda </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio15"> Não sabe </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio15"> Discorda </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio15"> Discorda Totalmente</label>
             </div>
             
             <hr>
