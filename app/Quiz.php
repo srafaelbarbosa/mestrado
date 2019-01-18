@@ -12,6 +12,7 @@ class Quiz extends Model
     public $timestamps = true;
 
     protected $fillable = [
+        'software',
         'question1',
         'question2',
         'question3',

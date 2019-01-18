@@ -62,9 +62,12 @@ class QuizController extends Controller
 
         $total  = 0;
         foreach ($quiz->getAttributes() as $key => $value) {
-            if($value == 3){
+            if($value == 5){
                 $total ++;
             }
+            // if ($value == 4) { 
+            //     $total = $total+0.5;
+            // }
         }
         
         $total = $total/15;
