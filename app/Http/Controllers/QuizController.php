@@ -4,10 +4,18 @@ namespace App\Http\Controllers;
 
 use App\Quiz;
 use Illuminate\Http\Request;
+
 use App\Http\Controllers\Controller;
 
 class QuizController extends Controller
 {
+
+    protected $quiz;
+
+    public function __construct(Quiz $quiz)
+    {
+        $this->quiz = $quiz;
+    }
 
     public function home()
     {
@@ -41,6 +49,12 @@ class QuizController extends Controller
     public function about()
     {
         return view('quiz.about');
+    }
+
+    public function evaluatesoftware(Request $request)
+    {
+        $quiz = $this->quiz->create($request->all());
+        return redirect()->action('QuizController@result', ['id' => $quiz->id]);
     }
 
     private static function calculateResult($quiz)

@@ -70,233 +70,239 @@
             <h3> <span class="label label-default">Avaliação de Softwares Educacionais</span></h3>
             
             <hr>
-
-            <div class="form-group row">
-                <label for="inputSoftware" class="col-sm-2 col-form-label">Software</label>
-                <div class="col-sm-10">
-                  <input class="form-control" id="inputSoftware" placeholder="Software para ser avaliado">
-                </div>
-            </div>
-            
-            <hr>
-
-            <h5>Pergunta 1</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio1"> Concorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio1"> Não sabe</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio1"> Discorda</label>
-            </div>
-
-            <hr>
-
-            <h5>Pergunta 2</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio2"> Concorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio2"> Não sabe</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio2"> Discorda</label>
-            </div>
-
-            <hr>
-
-            <h5>Pergunta 3</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio3"> Concorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio3"> Não sabe</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio3"> Discorda</label>
-            </div>
-
-            <hr>
-
-            <h5>Pergunta 4</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio4"> Concorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio4"> Não sabe</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio4"> Discorda</label>
-            </div>
-
-            <hr>
-
-            <h5>Pergunta 5</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio5"> Concorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio5"> Não sabe</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio5"> Discorda</label>
-            </div>
-            
-            <hr>
-
-            <h5>Pergunta 6</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio6"> Concorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio6"> Não sabe</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio6"> Discorda</label>
-            </div>
-            
-            <hr>
-
-            <h5>Pergunta 7</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio7"> Concorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio7"> Não sabe</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio7"> Discorda</label>
-            </div>
-            
-            <hr>
-
-            <h5>Pergunta 8</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio8"> Concorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio8"> Não sabe</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio8"> Discorda</label>
-            </div>
-            
-            <hr>
-
-            <h5>Pergunta 9</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio9"> Concorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio9"> Não sabe</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio9"> Discorda</label>
-            </div>
-            
-            <hr>
-
-            <h5>Pergunta 10</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio10"> Concorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio10"> Não sabe</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio10"> Discorda</label>
-            </div>
-            
-            <hr>
-
-            <h5>Pergunta 11</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio11"> Concorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio11"> Não sabe</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio11"> Discorda</label>
-            </div>
-            
-            <hr>
-
-            <h5>Pergunta 12</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio12"> Concorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio12"> Não sabe</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio12"> Discorda</label>
-            </div>
-            
-            <hr>
-
-            <h5>Pergunta 13</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio13"> Concorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio13"> Não sabe</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio13"> Discorda</label>
-            </div>
-            
-            <hr>
-
-            <h5>Pergunta 14</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio14"> Concorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio14"> Não sabe</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio14"> Discorda</label>
-            </div>
-            
-            <hr>
-
-            <h5>Pergunta 15</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="optradio15"> Concorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio15"> Não sabe</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio15"> Discorda</label>
-            </div>
-            
-            <hr>
-           
-            <div align="center"> 
-              <div>
-              <button type="submit" class="btn btn-primary" >Enviar</button>
-              <button type="submit" class="btn btn-primary">Refazer</button>
+            <form method="POST" action="/quiz/evaluatesoftware">
+             @csrf
+              <div class="form-group row">
+                  <label for="inputSoftware" class="col-sm-2 col-form-label">Software</label>
+                  <div class="col-sm-10">
+                    <input class="form-control" id="inputSoftware" placeholder="Software para ser avaliado">
+                  </div>
               </div>
-            </div>
-            <hr>
+              
+              <hr>
+
+              <h5>Pergunta 1</h5>
+              
+              <div class="radio">
+                <label><input type="radio" name="question1" value="3"> Concorda</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question1" value="2"> Não sabe</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question1" value="1"> Discorda</label>
+              </div>
+
+              <hr>
+
+              <h5>Pergunta 2</h5>
+              
+              <div class="radio">
+                <label><input type="radio" name="question2" value="3"> Concorda</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question2" value="2"> Não sabe</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question2" value="1"> Discorda</label>
+              </div>
+
+              <hr>
+
+              <h5>Pergunta 3</h5>
+              
+              <div class="radio">
+                <label><input type="radio" name="question3" value="3">  Concorda</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question3" value="2">  Não sabe</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question3" value="1">  Discorda</label>
+              </div>
+
+              <hr>
+
+              <h5>Pergunta 4</h5>
+              
+              <div class="radio">
+                <label><input type="radio" name="question4" value="3">  Concorda</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question4" value="2">  Não sabe</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question4" value="1">  Discorda</label>
+              </div>
+
+              <hr>
+
+              <h5>Pergunta 5</h5>
+              
+              <div class="radio">
+                <label><input type="radio" name="question5" value="3">  Concorda</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question5" value="2">  Não sabe</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question5" value="1">  Discorda</label>
+              </div>
+              
+              <hr>
+
+              <h5>Pergunta 6</h5>
+              
+              <div class="radio">
+                <label><input type="radio" name="question6" value="3">  Concorda</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question6" value="2">  Não sabe</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question6" value="1">  Discorda</label>
+              </div>
+              
+              <hr>
+
+              <h5>Pergunta 7</h5>
+              
+              <div class="radio">
+                <label><input type="radio" name="question7" value="3">  Concorda</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question7" value="2">  Não sabe</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question7" value="1">  Discorda</label>
+              </div>
+              
+              <hr>
+
+              <h5>Pergunta 8</h5>
+              
+              <div class="radio">
+                <label><input type="radio" name="question8" value="3">  Concorda</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question8" value="2">  Não sabe</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question8" value="1">  Discorda</label>
+              </div>
+              
+              <hr>
+
+              <h5>Pergunta 9</h5>
+              
+              <div class="radio">
+                <label><input type="radio" name="question9" value="3">  Concorda</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question9" value="2">  Não sabe</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question9" value="1">  Discorda</label>
+              </div>
+              
+              <hr>
+
+              <h5>Pergunta 10</h5>
+              
+              <div class="radio">
+                <label><input type="radio" name="question10" value="3"> Concorda</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question10" value="2"> Não sabe</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question10" value="1"> Discorda</label>
+              </div>
+              
+              <hr>
+
+              <h5>Pergunta 11</h5>
+              
+              <div class="radio">
+                <label><input type="radio" name="question11" value="3"> Concorda</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question11" value="2"> Não sabe</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question11" value="1"> Discorda</label>
+              </div>
+              
+              <hr>
+
+              <h5>Pergunta 12</h5>
+              
+              <div class="radio">
+                <label><input type="radio" name="question12" value="3"> Concorda</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question12" value="2"> Não sabe</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question12" value="1"> Discorda</label>
+              </div>
+              
+              <hr>
+
+              <h5>Pergunta 13</h5>
+              
+              <div class="radio">
+                <label><input type="radio" name="question13" value="3"> Concorda</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question13" value="2"> Não sabe</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question13" value="1"> Discorda</label>
+              </div>
+              
+              <hr>
+
+              <h5>Pergunta 14</h5>
+              
+              <div class="radio">
+                <label><input type="radio" name="question14" value="3"> Concorda</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question14" value="2"> Não sabe</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question14" value="1"> Discorda</label>
+              </div>
+              
+              <hr>
+
+              <h5>Pergunta 15</h5>
+              
+              <div class="radio">
+                <label><input type="radio" name="question15" value="3"> Concorda</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question15" value="2"> Não sabe</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question15" value="1"> Discorda</label>
+              </div>
+              
+              <hr>
+            
+              <div align="center"> 
+                <div>
+                <button type="submit" class="btn btn-primary" >Enviar</button>
+                <!-- <button type="submit" class="btn btn-primary">Refazer</button> -->
+                </div>
+              </div>
+              <hr>
+            </form>
+          <div>
+        <div>
+      </div> 
+    </article>
 
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="{{ url('/js/jquery.min.js') }}"></script>
