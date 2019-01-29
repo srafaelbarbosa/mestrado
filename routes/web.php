@@ -20,8 +20,6 @@ Route::get('/quiz/about', 'QuizController@about');
 
 Route::get('/quiz/result/{id}', 'QuizController@result');
 
-Route::get('/teste', 'TestController@home');
-
 Route::get('/', 'QuizController@home');
 
 Route::post('/quiz/evaluatesoftware', 'QuizController@evaluatesoftware');
