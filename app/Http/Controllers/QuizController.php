@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Quiz;
 use Illuminate\Http\Request;
+use App\Http\Requests\StoreQuizRequest;
 
 use App\Http\Controllers\Controller;
 
@@ -51,7 +52,7 @@ class QuizController extends Controller
         return view('quiz.about');
     }
 
-    public function evaluatesoftware(Request $request)
+    public function evaluatesoftware(StoreQuizRequest $request)
     {
         $quiz = $this->quiz->create($request->all());
         return redirect()->action('QuizController@result', ['id' => $quiz->id]);
