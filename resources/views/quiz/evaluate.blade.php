@@ -21,6 +21,29 @@
     <!-- Custom styles for this template -->
     <link href="{{ url('css/clean-blog.min.css') }}" rel="stylesheet">
 
+    <style type="text/css">
+      .margintop{
+        margin-top: 2em;
+      }
+      li{
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 1.5em;
+        /*text-align: center;*/
+      }
+      .marginbottom{
+        margin-bottom: 1em;
+      }
+      input[type="radio"]{
+        display: block;
+      }
+      @media (max-width: 550px){
+        .mobile-fs75em{
+          font-size: .75em;
+          /*margin-top: .5em;*/
+        }
+      }
+    </style>
+
   </head>
 
   <body>
@@ -55,7 +78,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-heading">
-              <h1 align="center">Guia de Desenvolvimento de Softwares Educacionais por meio de Determinantes de Inovação</h1>
+              <h1 align="center">Avaliação de Softwares Educacionais pelos Indicadores de Inovação</h1>
             </div>
           </div>
         </div>
@@ -93,306 +116,444 @@
               </div>
               
               <hr>
+              <ul class="px-0"> 
+                <li class="row form-group mx-0 margintop">
+                  <h5 class="col-md-12 col-12 marginbottom">O desenvolvimento do software é considerada a participação de algum especialista educacional?</h5>
+                  
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Importante</label>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question1" value="1" required> 
+                    <label for="question1">1</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question1" value="2" required> 
+                    <label for="question1">2</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question1" value="3" required> 
+                    <label for="question1">3</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question1" value="4" required> 
+                    <label for="question1">4</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question1" value="5" required> 
+                    <label for="1">5</label>
+                  </div>
+                  <label class="col-md-4 col-4 mobile-fs75em" for="5">Muito Importante</label>
 
-            <h5>O desenvolvimento do software é considerada a participação de algum especialista educacional?</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="question1" value="5" required> Concorda Totalmente</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question1" value="4" required> Concorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question1" value="3" required> Não sabe </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question1" value="2" required> Discorda</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question1" value="1" required> Discorda Totalmente</label>
-            </div>
-            <hr>
+                  <hr>
+                </li>
+           
+                <li class="row form-group mx-0 margintop">
 
-            <h5>O produto de software é integrado com o currículo da instituição que será aplicado?</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="question2" value="5" required> Concorda Totalmente</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question2" value="4" required> Concorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question2" value="3" required> Não sabe </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question2" value="2" required> Discorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question2" value="1" required> Discorda Totalmente </label>
-            </div>
+                  <h5 class="col-md-12 col-12 marginbottom">O produto de software é integrado com o currículo da instituição que será aplicado?</h5>
+                  
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Importante</label>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question2" value="1" required> 
+                    <label for="1">1</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question2" value="2" required> 
+                    <label for="2">2</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question2" value="3" required> 
+                    <label for="3">3</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question2" value="4" required> 
+                    <label for="4">4</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question2" value="5" required> 
+                    <label for="5">5</label>
+                  </div>
+                  <label class="col-md-4 col-4 mobile-fs75em" for="5">Muito Importante</label>
 
-            <hr>
 
-            <h5>Existe preocupação sobre o registro do software?</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="question3"value="5" required> Concorda Totalmente </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question3"value="4" required> Concorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question3"value="3" required> Não sabe </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question3"value="2" required> Discorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question3"value="1" required> Discorda Totalmente</label>
-            </div>
+                  <hr>
+                </li>
 
-            <hr>
+                <li class="row form-group mx-0 margintop">
+                  <h5 class="col-md-12 col-12 marginbottom">Existe preocupação sobre o registro do software?</h5>
+                  
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Importante</label>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question3" value="1" required> 
+                    <label for="1">1</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question3" value="2" required> 
+                    <label for="2">2</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question3" value="3" required> 
+                    <label for="3">3</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question3" value="4" required> 
+                    <label for="4">4</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question3" value="5" required> 
+                    <label for="5">5</label>
+                  </div>
+                  <label class="col-md-4 col-4 mobile-fs75em" for="5">Muito Importante</label>
 
-            <h5>O professor recebe um treinamento para melhor uso e entendimento do software?</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="question4" value="5" required> Concorda Totalmente </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question4" value="4" required> Concorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question4" value="3" required> Não sabe </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question4" value="2" required> Discorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question4" value="1" required> Discorda Totalmente</label>
-            </div>
+                  <hr>
+                </li>
 
-            <hr>
+                <li class="row form-group mx-0 margintop">
+                  <h5 class="col-md-12 col-12 marginbottom">O professor recebe um treinamento para melhor uso e entendimento do software?</h5>
+                  
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Importante</label>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question4" value="1" required> 
+                    <label for="1">1</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question4" value="2" required> 
+                    <label for="2">2</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question4" value="3" required> 
+                    <label for="3">3</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question4" value="4" required> 
+                    <label for="4">4</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question4" value="5" required> 
+                    <label for="5">5</label>
+                  </div>
+                  <label class="col-md-4 col-4 mobile-fs75em" for="5">Muito Importante</label>
 
-            <h5>Software pode ser usado como extensão fora da sala?</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="question5" value="5" required> Concorda Totalmente </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question5" value="4" required> Concorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question5" value="3" required> Não sabe </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question5" value="2" required> Discorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question5" value="1" required> Discorda Totalmente</label>
-            </div>
-            
-            <hr>
+                  <hr>
+                </li>
+                <li class="row form-group mx-0 margintop">
+                  <h5 class="col-md-12 col-12 marginbottom">Software pode ser usado como extensão fora da sala?</h5>
+                  
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Importante</label>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question5" value="1" required> 
+                    <label for="1">1</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question5" value="2" required> 
+                    <label for="2">2</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question5" value="3" required> 
+                    <label for="3">3</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question5" value="4" required> 
+                    <label for="4">4</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question5" value="5" required> 
+                    <label for="5">5</label>
+                  </div>
+                  <label class="col-md-4 col-4 mobile-fs75em" for="5">Muito Importante</label>
+                  
+                  <hr>
+                </li>
 
-            <h5>Software não requer alta capacidade  de processamento computacional</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="question6" value="5" required> Concorda Totalmente </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question6" value="4" required> Concorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question6" value="3" required> Não sabe </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question6" value="2" required> Discorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question6" value="1" required> Discorda Totalmente</label>
-            </div>
-            
-            <hr>
+                <li class="row form-group mx-0 margintop">
+                  <h5 class="col-md-12 col-12 marginbottom">Software não requer alta capacidade  de processamento computacional</h5>
+                  
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Importante</label>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question6" value="1" required> 
+                    <label for="1">1</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question6" value="2" required> 
+                    <label for="2">2</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question6" value="3" required> 
+                    <label for="3">3</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question6" value="4" required> 
+                    <label for="4">4</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question6" value="5" required> 
+                    <label for="5">5</label>
+                  </div>
+                  <label class="col-md-4 col-4 mobile-fs75em" for="5">Muito Importante</label>
+                  
+                  <hr>
+                </li>
 
-            <h5>Software tem um custo de manutenção baixo</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="question7" value="5" required> Concorda Totalmente </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question7" value="4" required> Concorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question7" value="3" required> Não sabe </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question7" value="2" required> Discorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question7" value="1" required> Discorda Totalmente</label>
-            </div>
-            
-            <hr>
+                <li class="row form-group mx-0 margintop">
+                  <h5 class="col-md-12 col-12 marginbottom">Software tem um custo de manutenção baixo</h5>
+                  
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Importante</label>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question7" value="1" required> 
+                    <label for="1">1</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question7" value="2" required> 
+                    <label for="2">2</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question7" value="3" required> 
+                    <label for="3">3</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question7" value="4" required> 
+                    <label for="4">4</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question7" value="5" required> 
+                    <label for="5">5</label>
+                  </div>
+                  <label class="col-md-4 col-4 mobile-fs75em" for="5">Muito Importante</label>
+                  
+                  <hr>
+                </li>
 
-            <h5>Software é de licença gratuita ou de baixo custo</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="question8" value="5" required> Concorda Totalmente </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question8" value="4" required> Concorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question8" value="3" required> Não sabe </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question8" value="2" required> Discorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question8" value="1" required> Discorda Totalmente</label>
-            </div>
-            
-            <hr>
+                <li class="row form-group mx-0 margintop">
+                  <h5 class="col-md-12 col-12 marginbottom">Software é de licença gratuita ou de baixo custo</h5>
+                  
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Importante</label>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question8" value="1" required> 
+                    <label for="1">1</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question8" value="2" required> 
+                    <label for="2">2</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question8" value="3" required> 
+                    <label for="3">3</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question8" value="4" required> 
+                    <label for="4">4</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question8" value="5" required> 
+                    <label for="5">5</label>
+                  </div>
+                  <label class="col-md-4 col-4 mobile-fs75em" for="5">Muito Importante</label>
+                  
+                  <hr>
+                </li>
 
-            <h5>O software permite uma avaliação e acompanhamento do desempenho individualizado do estudante</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="question9" value="5" required> Concorda Totalmente </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question9" value="4" required> Concorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question9" value="3" required> Não sabe </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question9" value="2" required> Discorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question9" value="1" required> Discorda Totalmente</label>
-            </div>
-            
-            <hr>
+                <li class="row form-group mx-0 margintop">
+                  <h5 class="col-md-12 col-12 marginbottom">O software permite uma avaliação e acompanhamento do desempenho individualizado do estudante</h5>
+                  
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Importante</label>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question9" value="1" required> 
+                    <label for="1">1</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question9" value="2" required> 
+                    <label for="2">2</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question9" value="3" required> 
+                    <label for="3">3</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question9" value="4" required> 
+                    <label for="4">4</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question9" value="5" required> 
+                    <label for="5">5</label>
+                  </div>
+                  <label class="col-md-4 col-4 mobile-fs75em" for="5">Muito Importante</label>
+                  
+                  <hr>
+                </li>
 
-            <h5>O software permite a aplicação fora da sala de aula?</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="question10" value="5" required> Concorda Totalmente </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question10" value="4" required> Concorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question10" value="3" required> Não sabe </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question10" value="2" required> Discorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question10" value="1" required> Discorda Totalmente</label>
-            </div>
-            
-            <hr>
+                <li class="row form-group mx-0 margintop">
+                  <h5 class="col-md-12 col-12 marginbottom">O software permite a aplicação fora da sala de aula?</h5>
+                  
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Importante</label>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question10" value="1" required> 
+                    <label for="1">1</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question10" value="2" required> 
+                    <label for="2">2</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question10" value="3" required> 
+                    <label for="3">3</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question10" value="4" required> 
+                    <label for="4">4</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question10" value="5" required> 
+                    <label for="5">5</label>
+                  </div>
+                  <label class="col-md-4 col-4 mobile-fs75em" for="5">Muito Importante</label>
+                  
+                  <hr>
+                </li>
 
-            <h5>O software permite a personalização do aprendizado?</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="question11" value="5" required> Concorda Totalmente </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question11" value="4" required> Concorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question11" value="3" required> Não sabe </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question11" value="2" required> Discorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question11" value="1" required> Discorda Totalmente</label>
-            </div>
-            
-            <hr>
+                <li class="row form-group mx-0 margintop">
+                  <h5 class="col-md-12 col-12 marginbottom">O software permite a personalização do aprendizado?</h5>
+                  
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Importante</label>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question11" value="1" required> 
+                    <label for="1">1</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question11" value="2" required> 
+                    <label for="2">2</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question11" value="3" required> 
+                    <label for="3">3</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question11" value="4" required> 
+                    <label for="4">4</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question11" value="5" required> 
+                    <label for="5">5</label>
+                  </div>
+                  <label class="col-md-4 col-4 mobile-fs75em" for="5">Muito Importante</label>
+                  
+                  <hr>
+                </li>
 
-            <h5>O software foi testado por especialista?</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="question12" value="5" required> Concorda Totalmente </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question12" value="4" required> Concorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question12" value="3" required> Não sabe </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question12" value="2" required> Discorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question12" value="1" required> Discorda Totalmente</label>
-            </div>
-            
-            <hr>
+                <li class="row form-group mx-0 margintop">
+                  <h5 class="col-md-12 col-12 marginbottom">O software foi testado por especialista?</h5>
+                  
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Importante</label>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question12" value="1" required> 
+                    <label for="1">1</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question12" value="2" required> 
+                    <label for="2">2</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question12" value="3" required> 
+                    <label for="3">3</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question12" value="4" required> 
+                    <label for="4">4</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question12" value="5" required> 
+                    <label for="5">5</label>
+                  </div>
+                  <label class="col-md-4 col-4 mobile-fs75em" for="5">Muito Importante</label>
+                  
+                  <hr>
+                </li>
 
-            <h5>O software está permitindo o trabalho em equipe?</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="question13" value="5" required> Concorda Totalmente </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question13" value="4" required> Concorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question13" value="3" required> Não sabe </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question13" value="2" required> Discorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question13" value="1" required> Discorda Totalmente</label>
-            </div>
-            
-            <hr>
+                <li class="row form-group mx-0 margintop">
+                  <h5 class="col-md-12 col-12 marginbottom">O software está permitindo o trabalho em equipe?</h5>
+                  
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Importante</label>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question13" value="1" required> 
+                    <label for="1">1</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question13" value="2" required> 
+                    <label for="2">2</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question13" value="3" required> 
+                    <label for="3">3</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question13" value="4" required> 
+                    <label for="4">4</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question13" value="5" required> 
+                    <label for="5">5</label>
+                  </div>
+                  <label class="col-md-4 col-4 mobile-fs75em" for="5">Muito Importante</label>
+                  
+                  <hr>
+                </li>
 
-            <h5>O professor consegue acompanhar o progresso do aluno?</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="question14" value="5" required> Concorda Totalmente </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question14" value="4" required> Concorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question14" value="3" required> Não sabe </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question14" value="2" required> Discorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question14" value="1" required> Discorda Totalmente</label>
-            </div>
-            
-            <hr>
+                <li class="row form-group mx-0 margintop">
+                  <h5 class="col-md-12 col-12 marginbottom">O professor consegue acompanhar o progresso do aluno?</h5>
+                  
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Importante</label>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question14" value="1" required> 
+                    <label for="1">1</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question14" value="2" required> 
+                    <label for="2">2</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question14" value="3" required> 
+                    <label for="3">3</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question14" value="4" required> 
+                    <label for="4">4</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question14" value="5" required> 
+                    <label for="5">5</label>
+                  </div>
+                  <label class="col-md-4 col-4 mobile-fs75em" for="5">Muito Importante</label>
+                  
+                  <hr>
+                </li>
 
-            <h5>Software é intuitivo para uso independente do aluno?</h5>
-            
-            <div class="radio">
-              <label><input type="radio" name="question15" value="5" required> Concorda Totalmente </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question15" value="4" required> Concorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question15" value="3" required> Não sabe </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question15" value="2" required> Discorda </label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question15" value="1" required> Discorda Totalmente</label>
-            </div>
-            
-            <hr>
-            
+                <li class="row form-group mx-0 margintop">
+                  <h5 class="col-md-12 col-12 marginbottom">Software é intuitivo para uso independente do aluno?</h5>
+                  
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Importante</label>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question15" value="1" required> 
+                    <label for="1">1</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question15" value="2" required> 
+                    <label for="2">2</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question15" value="3" required> 
+                    <label for="3">3</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question15" value="4" required> 
+                    <label for="4">4</label>
+                  </div>
+                  <div class="radio col-md-1 col-1">
+                    <input type="radio" name="question15" value="5" required> 
+                    <label for="5">5</label>
+                  </div>
+                  <label class="col-md-4 col-4 mobile-fs75em" for="5">Muito Importante</label>
+                  
+                  <hr>
+                </li>
+
+              </ul>
               <div align="center"> 
                 <div>
                 <button type="submit" class="btn btn-primary" >Enviar</button>

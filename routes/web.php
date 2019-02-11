@@ -25,3 +25,5 @@ Route::get('/teste', 'TestController@home');
 Route::get('/', 'QuizController@home');
 
 Route::post('/quiz/evaluatesoftware', 'QuizController@evaluatesoftware');
+
+Route::get('/quiz/guide', 'QuizController@guide');

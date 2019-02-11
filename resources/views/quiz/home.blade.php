@@ -82,7 +82,7 @@
           </div>
           <hr>
           <div class="post-preview">
-            <a href="Quiz-Determinantes.html">
+            <a href="{{ url('quiz/guide') }}">
               <h2 class="post-title">
                 Guia de desenvolvimento do Software Educacional pelos Determinantes de Inovação.
               </h2>

@@ -47,6 +47,11 @@ class QuizController extends Controller
     	return view('quiz.contact');
     }
 
+    public function guide()
+    {
+        return view('quiz.guide');
+    }
+
     public function about()
     {
         return view('quiz.about');
