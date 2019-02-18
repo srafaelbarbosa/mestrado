@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Home</title>
+    <title>Softwares Avaliados</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ url('/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -51,15 +51,15 @@
 
     <!-- Page Header -->
 
-    <header class="masthead" style="background-image: url({{ url('/img/home.jpg') }});">
+    <header class="masthead" style="background-image: url({{ url('/img/innovation.jpg') }});">
 
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1>Avaliação e Guia para Desenvolvimento de Softwares Educacionais</h1>
-              <span class="subheading">Uma abordagem utilizando Indicadores e Determinantes de Inovação</span>
+              <h1>Resultado das Avaliações</h1>
+              <span class="subheading">Aqui estão os Softwares Educacionais avaliados pelos educadores.</span>
             </div>
           </div>
         </div>
@@ -69,44 +69,24 @@
     <!-- Main Content -->
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-preview">
-            <a href="{{ url('quiz/evaluate') }}">
-              <h2 class="post-title">
-                Avaliação de Softwares Educacionais pelos Indicadores de Inovação
-              </h2>
-              <h3 class="post-subtitle">
-                Educadores, acessem esse link para responder sobre o Software Educacional já utilizado.
-              </h3>
-            </a>
+        <div class="col-lg-2 col-md-10 mx-auto">
+
+          <div class="clearfix float-my-children">
+             <a href="#">
+              <img src="{{ url('/img/scratch.jpg')}}" width=100>
+              <div>Scratch</div>
+             </a>
           </div>
           <hr>
-          <div class="post-preview">
-            <a href="{{ url('quiz/guide') }}">
-              <h2 class="post-title">
-                Guia de desenvolvimento do Software Educacional pelos Determinantes de Inovação.
-              </h2>
-              <h3 class="post-subtitle">
-                Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares Educacionais inovadores.
-              </h3>
-            </a>
-            <hr>
-          </div>
-          <div class="post-preview">
-            <a href="{{ url('quiz/softwares') }}">
-              <h2 class="post-title">
-                Resultado da avaliação dos educadores para Softwares Educacionais.
-              </h2>
-              <h3 class="post-subtitle">
-                Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares Educacionais inovadores.
-              </h3>
-            </a>
+
+          <div class="clearfix float-my-children">
+             <a href="#">
+              <img src="{{ url('/img/classcraft.jpg')}}" width=100>
+              <div>Classcraft</div>
+             </a>
           </div>
           <hr>
-          <!-- Pager -->
-          <!--<div class="clearfix">
-            <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-          </div>-->
+
         </div>
       </div>
     </div>

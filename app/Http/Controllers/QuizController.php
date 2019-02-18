@@ -28,6 +28,22 @@ class QuizController extends Controller
     	return view('quiz.evaluate');
     }
 
+    public function return_form()
+    {
+        return view('quiz.return_form');
+    }
+
+    public function login()
+    {
+        return view('quiz.login');
+    }
+
+    public function softwares()
+    {
+        return view('quiz.softwares');
+    }
+
+
     public function result($id)
     {
 

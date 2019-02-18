@@ -27,3 +27,10 @@ Route::get('/', 'QuizController@home');
 Route::post('/quiz/evaluatesoftware', 'QuizController@evaluatesoftware');
 
 Route::get('/quiz/guide', 'QuizController@guide');
+
+Route::get('/quiz/return_form', 'QuizController@return_form');
+
+Route::get('/quiz/login', 'QuizController@login');
+
+Route::get('/quiz/softwares', 'QuizController@softwares');
+

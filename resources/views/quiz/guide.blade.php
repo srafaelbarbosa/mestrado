@@ -105,7 +105,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-heading">
-              <h1 align="center">Guia de desenvolvimento do Software Educacional pelos Determinantes de Inovação</h1>
+              <h1 align="center">Determinantes de Inovação para Softwares Educacionais</h1>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@
 
           
           <div class="col-lg-8 col-md-10 mx-auto">
-            <h3> <span class="label label-default">Avaliação de Softwares Educacionais</span></h3>
+            <h4> <span class="label label-default">Aqui estão listados os Determinantes de Inovação para Softwares Educacionais. Estão dispostos por categorias e clicando neles, você poderá ter uma melhor descrição, a categoria e a referência.</span></h4>
             
             <hr>
             
@@ -222,38 +222,28 @@
                         </small>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                       </div>
                     </div>
                   </div>
                 </div>
 
+                <!-- Modal -->
                 <div class="modal fade" id="d02" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLongTitle">Software fornece suporte a atividades extraclasse</h5>
+                        <br>
+                        <span class="badge badge-light">Técnica</span>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
                       <div class="modal-body">
-                        222222
-
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
-
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+                        <p>Uma versão beta do software educacional é disponibilizada e avaliada por estudantes, professores e especialistas para coleta de feedback para melhorias da versão final.</p>
+                        <hr>
+                        <small class="block">VALIENTE, O.: 1-1 in Education: Current Practice, International Comparative Research Evidence and Policy Implications. OECD Education Working Papers, No. 44. OECD Publishing (NJ1), 2010.</small>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

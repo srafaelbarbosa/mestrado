@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Home</title>
+    <title>Retorno do Formulário</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ url('/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -51,15 +51,14 @@
 
     <!-- Page Header -->
 
-    <header class="masthead" style="background-image: url({{ url('/img/home.jpg') }});">
+    <header class="masthead" style="background-image: url({{ url('/img/return.jpg') }});">
 
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1>Avaliação e Guia para Desenvolvimento de Softwares Educacionais</h1>
-              <span class="subheading">Uma abordagem utilizando Indicadores e Determinantes de Inovação</span>
+              <h1>Obrigado por sua participação! :) </h1>
             </div>
           </div>
         </div>
@@ -71,36 +70,16 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-preview">
-            <a href="{{ url('quiz/evaluate') }}">
-              <h2 class="post-title">
-                Avaliação de Softwares Educacionais pelos Indicadores de Inovação
-              </h2>
-              <h3 class="post-subtitle">
-                Educadores, acessem esse link para responder sobre o Software Educacional já utilizado.
-              </h3>
-            </a>
-          </div>
-          <hr>
-          <div class="post-preview">
-            <a href="{{ url('quiz/guide') }}">
-              <h2 class="post-title">
-                Guia de desenvolvimento do Software Educacional pelos Determinantes de Inovação.
-              </h2>
-              <h3 class="post-subtitle">
-                Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares Educacionais inovadores.
-              </h3>
-            </a>
-            <hr>
-          </div>
-          <div class="post-preview">
-            <a href="{{ url('quiz/softwares') }}">
-              <h2 class="post-title">
-                Resultado da avaliação dos educadores para Softwares Educacionais.
-              </h2>
-              <h3 class="post-subtitle">
-                Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares Educacionais inovadores.
-              </h3>
-            </a>
+            <h3>Agradecemos sua participação na avaliação do Software Educacional (Inserir aqui o nome do software)!</h3>
+            <br>
+            <h3>O resultado de todas as análises pode ser encontrado na página inicial.</h3>
+              <hr>
+              <div align="center"> 
+                <div>
+                <a href="{{ url('quiz/home') }}" class="btn btn-primary"> Voltar </a>
+                </div>
+
+              </div>
           </div>
           <hr>
           <!-- Pager -->
