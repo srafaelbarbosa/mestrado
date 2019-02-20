@@ -70,9 +70,9 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-preview">
-            <h3>Agradecemos sua participação na avaliação do Software Educacional (Inserir aqui o nome do software)!</h3>
+            <h3>Agradecemos sua participação na avaliação do Software Educacional: (Inserir aqui o nome do software)!</h3>
             <br>
-            <h3>O resultado de todas as análises pode ser encontrado na página inicial.</h3>
+            <h3>O link para o resultado de todas as análises pode ser encontrado na página inicial.</h3>
               <hr>
               <div align="center"> 
                 <div>
