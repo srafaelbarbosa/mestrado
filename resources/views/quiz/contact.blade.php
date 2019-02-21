@@ -21,6 +21,9 @@
     <!-- Custom styles for this template -->
     <link href="{{ url('css/clean-blog.min.css') }}" rel="stylesheet">
 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
   </head>
 
   <body>
@@ -95,6 +98,12 @@
             </div>
             <br>
             <div id="success"></div>
+            {{-- outra forma  {!! Recaptcha::render() !!} --}}
+            <div class="g-recaptcha" data-sitekey="6LcJ3pIUAAAAAIAmMo8UOnfYqoKrL7UzmauQXQx0"></div>
+
+            <hr>
+
+
             <div class="form-group">
               <button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar</button>
             </div>
