@@ -114,11 +114,11 @@
 
                     <div class="form-group">
                       <select class="form-control" id="">
-                        <option>Software 1</option>
-                        <option>Software 2</option>
-                        <option>Software 3</option>
-                        <option>Software 4</option>                        
-                        <option>Software 5</option>                        
+                        <option>Scracth</option>
+                        <option>Moodle</option>
+                        <option>Google Suite</option>
+                        <option>App Inventor</option>                        
+                        <option>Google Classroom</option>                        
                       </select>
                     </div>
                   </div>
