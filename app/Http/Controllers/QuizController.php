@@ -28,6 +28,27 @@ class QuizController extends Controller
     	return view('quiz.evaluate');
     }
 
+    public function return_quiz()
+    {
+        return view('quiz.return_quiz');
+    }
+
+    public function login()
+    {
+        return view('quiz.login');
+    }
+
+    public function softwares()
+    {
+        return view('quiz.softwares');
+    }
+
+    public function form()
+    {
+        return view('quiz.form');
+    }
+
+
     public function result($id)
     {
 
@@ -45,6 +66,11 @@ class QuizController extends Controller
     public function contact()
     {
     	return view('quiz.contact');
+    }
+
+    public function guide()
+    {
+        return view('quiz.guide');
     }
 
     public function about()
@@ -66,9 +92,6 @@ class QuizController extends Controller
             if($value == 5){
                 $total ++;
             }
-            // if ($value == 4) { 
-            //     $total = $total+0.5;
-            // }
         }
         
         $total = $total/15;

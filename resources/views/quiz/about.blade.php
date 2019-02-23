@@ -22,6 +22,8 @@
     <!-- Custom styles for this template -->
     <link href="{{ url('css/clean-blog.min.css') }}" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
   </head>
 
   <body>
@@ -147,6 +149,34 @@
             </ul>
           </div>
         </div>
+            <hr>
+            <img class="rounded mx-auto d-block" src="{{ url('/img/dyego.jpg')}}">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+            <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <ul class="list-inline text-center">
+                <li class="list-inline-item">
+                  <a href="#" target="_blank">
+                    <span class="fa-stack fa-lg">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/dyego.carlos.7" target="_blank">
+                    <span class="fa-stack fa-lg">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr>
       </div>
       <hr>
       </div>

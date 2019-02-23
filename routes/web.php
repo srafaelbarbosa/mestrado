@@ -23,3 +23,15 @@ Route::get('/quiz/result/{id}', 'QuizController@result');
 Route::get('/', 'QuizController@home');
 
 Route::post('/quiz/evaluatesoftware', 'QuizController@evaluatesoftware');
+
+Route::get('/quiz/guide', 'QuizController@guide');
+
+Route::get('/quiz/return_quiz', 'QuizController@return_quiz');
+
+Route::get('/quiz/login', 'QuizController@login');
+
+Route::get('/quiz/softwares', 'QuizController@softwares');
+
+Route::get('/quiz/form', 'QuizController@form');
+
+
