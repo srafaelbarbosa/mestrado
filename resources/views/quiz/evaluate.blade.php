@@ -116,7 +116,7 @@
                       <select class="form-control" id="">
                         <option>Scracth</option>
                         <option>Moodle</option>
-                        <option>Google Suite</option>
+                        <option>Google Suite (Docs, Planilhas, etc.)</option>
                         <option>App Inventor</option>                        
                         <option>Google Classroom</option>                        
                       </select>
