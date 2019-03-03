@@ -69,28 +69,63 @@
     <!-- Main Content -->
     <div class="container">
       <div class="row">
-        <div class="col-lg-2 col-md-10 mx-auto">
-
-          <div class="clearfix float-my-children">
-             <a href="#">
-              <img src="{{ url('/img/scratch.jpg')}}" width=100>
-              <div>Scratch</div>
-             </a>
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Lista dos Softwares Avaliados</h1>
           </div>
-          <hr>
-
-          <div class="clearfix float-my-children">
-             <a href="#">
-              <img src="{{ url('/img/classcraft.jpg')}}" width=100>
-              <div>Classcraft</div>
-             </a>
-          </div>
-          <hr>
-
         </div>
       </div>
     </div>
 
+    <div class="container">
+        <a href="#"><h3>Scracth</h3></a>
+        <div class="row">
+            <div class="col-md-10">
+                <a href="#"><img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/scratch2.jpg')}}" /></a>
+                <p>Com o Scratch, pode programar as suas próprias estórias, jogos e animações interactivos – e partilhar as suas criações com outros na comunidade em linha. O Scratch ajuda os jovens a pensar de forma criativa, a raciocinar sistematicamente e a trabalhar colaborativamente — competências essenciais à vida no século XXI. O Scratch é um projecto do Lifelong Kindergarten Group do MIT Media Lab. É disponibilizado gratuitamente.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <a href="#"><h3>Moodle</h3></a>
+        <div class="row">
+            <div class="col-md-10">
+                <a href="#"><img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/moodle.jpg')}}" /></a>
+                <p>O Moodle é uma plataforma de aprendizado projetada para fornecer aos educadores, administradores e alunos um sistema robusto, seguro e integrado para criar ambientes de aprendizado personalizados.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <a href="#"><h3>Google Suite</h3></a>
+        <div class="row">
+            <div class="col-md-10">
+                <a href="#"><img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/gsuite.jpg')}}" /></a>
+                <p>Com o Google Suite for Education, os professores podem criar oportunidades de aprendizagem, simplificar as tarefas administrativas e desafiar os alunos a pensar de forma crítica, tudo isso sem interromper os fluxos de trabalho em andamento.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <a href="#"><h3>App Inventor</h3></a>
+        <div class="row">
+            <div class="col-md-10">
+                <a href="#"><img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/appinventor.jpg')}}" /></a>
+                <p>O MIT App Inventor é um ambiente de programação visual e intuitivo que permite que todos - até mesmo crianças - criem aplicativos totalmente funcionais para smartphones e tablets. Ferramenta baseada em blocos facilita a criação de aplicativos complexos e de alto impacto em um tempo significativamente menor do que os ambientes de programação tradicionais. O projeto MIT App Inventor procura democratizar o desenvolvimento de software, capacitando todas as pessoas, especialmente os jovens, para passar do consumo de tecnologia para a criação de tecnologia.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <a href="#"><h3>Google Classroom</h3></a>
+        <div class="row">
+            <div class="col-md-10">
+                <a href="#"><img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/gclassroom.jpg')}}" /></a>
+                <p>Google Classroom é uma ferramenta simplificada e fácil de usar que ajuda os professores a gerenciar os cursos. Com o Google Classroom, os educadores podem criar turmas, distribuir tarefas, avaliar e enviar feedback e ver tudo em um só lugar.</p>
+            </div>
+        </div>
+    </div>
     <hr>
 
     <!-- Footer -->
