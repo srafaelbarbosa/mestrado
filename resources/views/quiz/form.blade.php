@@ -83,21 +83,21 @@
 					</div>
 					<hr>
 					<div class="form-group">
-						<label>Nível de experiência utilizando Softwares Educacionais no ensino:</label>
+						<label>Tempo de Experiência:</label>
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" required="">
+							<input class="form-check-input" type="radio" name="tempoExp" id="gridRadios1" value="option1" required="">
 							<label class="form-check-label" for="gridRadios1">
 								1 a 5
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+							<input class="form-check-input" type="radio" name="tempoExp" id="gridRadios2" value="option2" required="">
 							<label class="form-check-label" for="gridRadios2">
 								5 a 10
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+							<input class="form-check-input" type="radio" name="tempoExp" id="gridRadios3" value="option3">
 							<label class="form-check-label" for="gridRadios3">
 								Acima de 10
 							</label>
@@ -124,80 +124,68 @@
 								Educação
 							</label>
 						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="gridCheck2">
+							<label class="form-check-label" for="gridCheck1">
+								Design
+							</label>
+						</div>
 					</div>
 
 					<div class="form-group">
-						<label>Área de Atuação no Ensino:</label>
+						<label>Escolaridade (completa):</label>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" id="gridCheck1">
-							<label class="form-check-label" for="gridCheck1">
-								Educação Infantil
+							<input class="form-check-input" type="radio" name="question3" id="gridRadios1" value="option1" required="">
+							<label class="form-check-label" for="gridRadios1">
+								Graduação
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" id="gridCheck2">
-							<label class="form-check-label" for="gridCheck1">
-								Ensino Fundamental
+							<input class="form-check-input" type="radio" name="question3" id="gridRadios2" value="option2" required="">
+							<label class="form-check-label" for="gridRadios2">
+								Especialização
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" id="gridCheck2">
-							<label class="form-check-label" for="gridCheck1">
+							<input class="form-check-input" type="radio" name="question3" id="gridRadios3" value="option3" required="">
+							<label class="form-check-label" for="gridRadios3">
+								Mestrado
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="question3" id="gridRadios3" value="option3" required="">
+							<label class="form-check-label" for="gridRadios3">
+								Doutorado
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="question3" id="gridRadios3" value="option3" required="">
+							<label class="form-check-label" for="gridRadios3">
+								Técnico
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="question3" id="gridRadios3" value="option3" required="">
+							<label class="form-check-label" for="gridRadios3">
+								Técnico
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="question3" id="gridRadios3" value="option3" required="">
+							<label class="form-check-label" for="gridRadios3">
+								Graduação Incompleta
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="question3" id="gridRadios3" value="option3" required="">
+							<label class="form-check-label" for="gridRadios3">
 								Ensino Médio
 							</label>
 						</div>
-						<div class="form-check">
-							<input class="form-check-input" type="checkbox" id="gridCheck2">
-							<label class="form-check-label" for="gridCheck1">
-								Educação Profissional
-							</label>
-						</div>
-						<div class="form-check">
-							<input class="form-check-input" type="checkbox" id="gridCheck2">
-							<label class="form-check-label" for="gridCheck1">
-								Ensino Superior
-							</label>
-						</div>
-					</div>
-					<hr>
-					<div class="form-row">
 
-						<div class="form-group col-md-6">
-							<label for="inputCity">Cidade</label>
-							<input type="text" class="form-control" id="inputCity" placeholder="Cidade">
-						</div>
-						<div class="form-group col-md-4">
-							<label for="inputState">Estado</label>
-							<select id="inputState" class="form-control">
-								<option>Acre</option>
-								<option>Alagoas</option>
-								<option>Amapá</option>
-								<option>Amazonas</option>
-								<option>Bahia</option>
-								<option>Ceará</option>
-								<option>Distrito Federal</option>
-								<option>Espírito Santo</option>
-								<option>Goiás</option>
-								<option>Maranhão</option>
-								<option>Mato Grosso</option>
-								<option>Mato Grosso do Sul</option>
-								<option>Minas Gerais</option>
-								<option>Pará</option>
-								<option>Paraíba</option>
-								<option>Pernambuco</option>
-								<option>Piauí</option>
-								<option>Rio de Janeiro</option>
-								<option>Rio Grande do Norte</option>
-								<option>Rio Grande do Sul</option>
-								<option>Rondônia</option>
-								<option>Roraima</option>
-								<option>Santa Catarina</option>
-								<option>São Paulo</option>
-								<option>Sergipe</option>
-								<option>Tocantins</option>
-							</select>
-						</div>
 					</div>
+
+					
 					<hr>
 					<div class="form-row">
 						<div class="form-group col-md-6">
