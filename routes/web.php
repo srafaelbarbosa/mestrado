@@ -35,3 +35,7 @@ Route::get('/quiz/softwares', 'QuizController@softwares');
 Route::get('/quiz/form', 'QuizController@form');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
