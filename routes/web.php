@@ -10,31 +10,35 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/quiz/home', 'QuizController@home');
 
+// InnovationController
+Route::get('/', 'InnovationController@home');
+
+Route::get('/innovation/home', 'InnovationController@home');
+
+Route::get('/innovation/contact', 'InnovationController@contact');
+
+Route::get('/innovation/about', 'InnovationController@about');
+
+Route::get('/innovation/guide', 'InnovationController@guide');
+
+Route::get('/innovation/form', 'InnovationController@form');
+
+Route::get('/innovation/softwares', 'InnovationController@softwares');
+
+Route::get('/innovation/login', 'InnovationController@login');
+// InnovationController
+
+
+// QuizController
 Route::get('/quiz/evaluate', 'QuizController@evaluate');
-
-Route::get('/quiz/contact', 'QuizController@contact');
-
-Route::get('/quiz/about', 'QuizController@about');
 
 Route::get('/quiz/result/{id}', 'QuizController@result');
 
-Route::get('/', 'QuizController@home');
-
-Route::post('/quiz/evaluatesoftware', 'QuizController@evaluatesoftware');
-
-Route::get('/quiz/guide', 'QuizController@guide');
-
 Route::get('/quiz/return_quiz', 'QuizController@return_quiz');
 
-Route::get('/quiz/login', 'QuizController@login');
-
-Route::get('/quiz/softwares', 'QuizController@softwares');
-
-Route::get('/quiz/form', 'QuizController@form');
-
-
+Route::post('/quiz/evaluatesoftware', 'QuizController@evaluatesoftware');
+// QuizController
 
 Auth::routes();
 

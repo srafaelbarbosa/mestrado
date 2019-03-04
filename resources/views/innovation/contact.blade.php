@@ -38,13 +38,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="{{ url('quiz/home') }}">Home</a>
+              <a class="nav-link" href="{{ url('innovation/home') }}">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url('quiz/about') }}">Equipe</a>
+              <a class="nav-link" href="{{ url('innovation/about') }}">Equipe</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url('quiz/contact') }}">Contato</a>
+              <a class="nav-link" href="{{ url('innovation/contact') }}">Contato</a>
             </li>
           </ul>
         </div>
