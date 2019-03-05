@@ -51,10 +51,10 @@
       .determinantes-list li.tecnica{
         background-color: #45b0e5;
       }
-      .determinantes-list li.colaboracao{
+      .determinantes-list li.pedagogico{
         background-color: #ff884d;
       }
-      .determinantes-list li.comunicacao{
+      .determinantes-list li.indicador{
         background-color: #9065e5;
       }
       .marginbottom{
@@ -138,68 +138,96 @@
                 <ul class="row">
                   <li class="col-md-4 col-xs-6 tecnica" data-toggle="modal" data-target="#d01">
                     <i class="fas fa-tools"></i>
-                    <h5>Software fornece suporte a atividades extraclasse</h5>
+                    <h5>Software não requer alta capacidade de processamento computacional</h5>
                   </li>
                   <li class="col-md-4 col-xs-6 tecnica" data-toggle="modal" data-target="#d02">  
                       <i class="fas fa-tools"></i>
-                      <h5>Software experimentado e avaliado antes da distribuição</h5>
+                      <h5>Software tem participação ativa dos professores no processo de desenvolvimento </h5>
                   </li>
                   <li class="col-md-4 col-xs-6 tecnica">
                       <i class="fas fa-tools"></i>  
-                      <h5>Software fornece suporte a atividades extraclasse</h5>
+                      <h5>Manutenibilidade do software</h5>
                   </li>
                   <li class="col-md-4 col-xs-6 tecnica">  
                       <i class="fas fa-tools"></i>
-                      <h5>Software fornece suporte a atividades extraclasse</h5>
+                      <h5>Proficiência do professor em usar o software</h5>
                   </li>
                   <li class="col-md-4 col-xs-6 tecnica">
                       <i class="fas fa-tools"></i>  
+                      <h5>Disponibilidade do software</h5>
+                  </li>
+                  <li class="col-md-4 col-xs-6 pedagogico">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h5>Software disponibiliza feedback das atividades realizadas</h5>
+                  </li>
+                  <li class="col-md-4 col-xs-6 pedagogico"> 
+                    <i class="fas fa-chalkboard-teacher"></i>
                       <h5>Software fornece suporte a atividades extraclasse</h5>
                   </li>
-                  <li class="col-md-4 col-xs-6 colaboracao">
-                      <i class="fas fa-people-carry"></i>  
-                      <h5>Software permite a personalização do aprendizado através de conteúdo adaptativo às necessidades do estudante</h5>
+                  <li class="col-md-4 col-xs-6 pedagogico"> 
+                    <i class="fas fa-chalkboard-teacher"></i>
+                      <h5>Software experimentado e avaliado antes da distribuição</h5>
                   </li>
-                  <li class="col-md-4 col-xs-6 colaboracao"> 
-                      <i class="fas fa-people-carry"></i> 
-                      <h5>Software fornece suporte a atividades extraclasse</h5>
+                  <li class="col-md-4 col-xs-6 pedagogico"> 
+                    <i class="fas fa-chalkboard-teacher"></i>
+                      <h5>Software dispõe de ambiente desafiador e recompensa os estudantes</h5>
                   </li>
-                  <li class="col-md-4 col-xs-6 colaboracao"> 
-                      <i class="fas fa-people-carry"></i> 
-                      <h5>Software fornece suporte a atividades extraclasse</h5>
+                  <li class="col-md-4 col-xs-6 pedagogico">  
+                    <i class="fas fa-chalkboard-teacher"></i>
+                      <h5>Software integra a participação dos pais no processo de aprendizagem dos estudantes</h5>
                   </li>
-                  <li class="col-md-4 col-xs-6 colaboracao"> 
-                      <i class="fas fa-people-carry"></i> 
-                      <h5>Software fornece suporte a atividades extraclasse</h5>
+                  <li class="col-md-4 col-xs-6 pedagogico">  
+                    <i class="fas fa-chalkboard-teacher"></i>
+                      <h5>Software é usado para integrar ao currículo escolar</h5>
                   </li>
-                  <li class="col-md-4 col-xs-6 comunicacao">  
-                      <i class="fas fa-comments"></i>
-                      <h5>Software fornece suporte a atividades extraclasse</h5>
-                  </li>
-                  <li class="col-md-4 col-xs-6 comunicacao">  
-                      <i class="fas fa-comments"></i>
-                      <h5>Software fornece suporte a atividades extraclasse</h5>
-                  </li>
-                  <li class="col-md-4 col-xs-6 comunicacao">  
-                      <i class="fas fa-comments"></i>
-                      <h5>Software fornece suporte a atividades extraclasse</h5>
-                  </li>
-                  <li class="col-md-4 col-xs-6 comunicacao">  
-                      <i class="fas fa-comments"></i>
-                      <h5>Software fornece suporte a atividades extraclasse</h5>
-                  </li>
-                  <li class="col-md-4 col-xs-6 comunicacao">  
-                      <i class="fas fa-comments"></i>
-                      <h5>Software fornece suporte a atividades extraclasse</h5>
-                  </li>                  
+                  <li class="col-md-4 col-xs-6 pedagogico">  
+                    <i class="fas fa-chalkboard-teacher"></i>
+                      <h5>Software disponibiliza ao professor a avaliação formativa do estudante</h5>
+                  </li>                
                 </ul>
-
-
-
-
-
-
-
+                <hr>
+                <h2>Indicadores de Inovação Educacionais:</h2>
+                 <p>Estão fortemente relacionados de como um software educacional pode ser um habilitador das competências e habilidades do século XXI. 
+                 Estão aqui listados para que saibam como os softwares serão avaliados nesta ferramenta, uma espécie de Desenvolvimento Orientado a Testes (TDD). Já sabendo quais os pontos em que os softwares serão avaliados para serem considerados inovadores, sem a necessidade de fazer toda implementação do software para depois avaliar.</p>
+                 <ul class="row">
+                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#d01">
+                    <i class="fas fa-hiking"></i>
+                    <h5>Software como habilitador do aprendizado autônomo e autodirigido</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#d02">  
+                       <i class="fas fa-chalkboard"></i>
+                       <h5>Software como habilitador da adaptação a diferentes modos e paradigmas de aprendizagem</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador">
+                       <i class="fas fa-book-reader"></i> 
+                       <h5>Software como habilitador do aprendizado personalizado</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador"> 
+                      <i class="fas fa-hands-helping"></i>  
+                       <h5>Software como habilitador da contribuição individual em um esforço coletivo para realização de uma tarefa</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador">
+                    <i class="fas fa-people-carry"></i>
+                    <h5>Software como habilitador do aprendizado em pares</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador">
+                      <i class="fas fa-comments"></i>
+                     <h5>Software como habilitador da comunicação entre indivíduos</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador"> 
+                      <i class="fas fa-lightbulb"></i>
+                      <h5>Software como habilitador da comunicação criativa do aprendizado</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador"> 
+                    <i class="fas fa-tasks"></i>
+                    <h5>Software como habilitador da resolução criativa de problemas.</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador"> 
+                     <i class="fas fa-sync-alt"></i>
+                       <h5>Software como habilitador da transformação do conhecimento</h5>
+                   </li>                
+                 </ul>
+                 <hr>
 
 
                 <!-- Modal -->
