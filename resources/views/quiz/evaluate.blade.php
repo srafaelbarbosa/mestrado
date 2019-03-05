@@ -119,6 +119,7 @@
                         <option>Google Suite (Docs, Planilhas, etc.)</option>
                         <option>App Inventor</option>                        
                         <option>Google Classroom</option>                        
+                        <option>Lighbot</option>                        
                       </select>
                     </div>
                   </div>

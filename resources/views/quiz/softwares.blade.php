@@ -127,6 +127,16 @@
         </div>
     </div>
     <hr>
+    <div class="container">
+        <a href="#"><h3>Lightbot</h3></a>
+        <div class="row">
+            <div class="col-md-10">
+                <a href="#"><img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/lightBot.jpg')}}" /></a>
+                <p>LightBot é um jogo de quebra-cabeça baseado em codificação; secretamente ensina lógica de programação enquanto se joga. Tem sido jogado por mais de 20 milhões de crianças e tem sido usado por dezenas de milhares de professores em todo o mundo.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
 
     <!-- Footer -->
 
