@@ -105,7 +105,9 @@
           <div class="col-lg-8 col-md-10 mx-auto">
             <h3> <span class="label label-default">Avaliação de Softwares Educacionais</span></h3>
             
-            <hr>
+            <p>Nesta etapa você deve selecionar qual Software será avaliado, de acordo com o e-mail recebido.</p>
+            <p>Após a leitura, selecione o nível de quanto o software atende o Indicador de Inovação, considerando as seguintes opções: 1 - Não Atende; 2 - Não sei; 3 - Atende Parcialmente; 4 - Atende Plenamente.</p>
+            <hr> 
             <form method="POST" action="/quiz/evaluatesoftware">
              @csrf
               <div class="form-group row">
