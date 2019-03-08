@@ -1,6 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
+<!-- Page Header -->
+
+<header class="masthead" style="background-image: url({{ url('/img/login.jpg') }});">
+
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="site-heading">
+          <h1>Acesso</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -45,7 +60,7 @@
                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
                                     <label class="form-check-label" for="remember">
-                                        {{ __('Mantenha-mse Conectado') }}
+                                        {{ __('Continuar conectado') }}
                                     </label>
                                 </div>
                             </div>
