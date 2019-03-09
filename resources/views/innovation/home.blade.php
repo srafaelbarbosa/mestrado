@@ -44,6 +44,18 @@
             <li class="nav-item">
               <a class="nav-link" href="{{ url('innovation/contact') }}">Contato</a>
             </li>
+            @if(Auth::user())
+            <li class="nav-item">
+              <a class="nav-link" href="{{ route('logout') }}"
+                onclick="event.preventDefault(); 
+                document.getElementById('logout-form').submit();">
+                {{ __('Logout') }}
+              </a>
+              <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                  @csrf
+              </form>
+            </li>
+            @endif
           </ul>
         </div>
       </div>
@@ -71,7 +83,7 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-preview">
-            <a href="{{ url('innovation/evaluate') }}">
+            <a href="{{ url('quiz/evaluate') }}">
               <h2 class="post-title">
                 Avaliação de Softwares Educacionais pelos Indicadores de Inovação
               </h2>

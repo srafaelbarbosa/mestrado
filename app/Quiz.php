@@ -22,11 +22,6 @@ class Quiz extends Model
         'question7',
         'question8',
         'question9',
-        'question10',
-        'question11',
-        'question12',
-        'question13',
-        'question14',
-        'question15'
+        'user_id'
     ];
 }

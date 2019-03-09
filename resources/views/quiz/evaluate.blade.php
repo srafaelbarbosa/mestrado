@@ -113,7 +113,7 @@
                   <div class="dropdown">
 
                     <div class="form-group">
-                      <select class="form-control" id="">
+                      <select name="software" class="form-control" id="">
                         <option>Scracth</option>
                         <option>Moodle</option>
                         <option>Google Suite (Docs, Planilhas, etc.)</option>
@@ -123,7 +123,7 @@
                     </div>
                   </div>
               </div>
-              
+              <input type="hidden" name="user_id" value="{{ Auth::user()->id }}">
               <hr>
               <ul class="px-0"> 
                 <li class="row form-group mx-0 margintop">

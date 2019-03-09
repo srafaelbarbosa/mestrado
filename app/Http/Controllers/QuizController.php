@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Quiz;
 use Illuminate\Http\Request;
 use App\Http\Requests\StoreQuizRequest;
-
+use Auth;
 use App\Http\Controllers\Controller;
 
 class QuizController extends Controller
@@ -31,7 +31,6 @@ class QuizController extends Controller
 
     public function result($id)
     {
-
         $quiz = Quiz::find($id);
         if(is_null($quiz)){
             return redirect('quiz/home');
