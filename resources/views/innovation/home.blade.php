@@ -3,6 +3,8 @@
 <html lang="en">
 
   <head>
+    <link rel="shortcut icon" type="image/png" href="{{ url('/img/iconelogo.png')}}" >
+
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -36,14 +38,26 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="{{ url('quiz/home') }}">Home</a>
+              <a class="nav-link" href="{{ url('innovation/home') }}">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url('quiz/about') }}">Equipe</a>
+              <a class="nav-link" href="{{ url('innovation/about') }}">Equipe</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url('quiz/contact') }}">Contato</a>
+              <a class="nav-link" href="{{ url('innovation/contact') }}">Contato</a>
             </li>
+            @if(Auth::user())
+            <li class="nav-item">
+              <a class="nav-link" href="{{ route('logout') }}"
+                onclick="event.preventDefault(); 
+                document.getElementById('logout-form').submit();">
+                {{ __('Logout') }}
+              </a>
+              <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                  @csrf
+              </form>
+            </li>
+            @endif
           </ul>
         </div>
       </div>
@@ -58,8 +72,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1>Avaliação e Guia para Desenvolvimento de Softwares Educacionais</h1>
-              <span class="subheading">Uma abordagem utilizando Indicadores e Determinantes de Inovação</span>
+              <img src="{{ url('/img/logo2.png')}}" class="img-fluid" alt="Responsive image">
             </div>
           </div>
         </div>
@@ -82,7 +95,7 @@
           </div>
           <hr>
           <div class="post-preview">
-            <a href="{{ url('quiz/guide') }}">
+            <a href="{{ url('innovation/guide') }}">
               <h2 class="post-title">
                 Guia de desenvolvimento do Software Educacional pelos Determinantes de Inovação.
               </h2>
@@ -93,7 +106,7 @@
             <hr>
           </div>
           <div class="post-preview">
-            <a href="{{ url('quiz/softwares') }}">
+            <a href="{{ url('innovation/softwares') }}">
               <h2 class="post-title">
                 Resultado da avaliação dos educadores para Softwares Educacionais.
               </h2>

@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Quiz;
 use Illuminate\Http\Request;
 use App\Http\Requests\StoreQuizRequest;
-
+use Auth;
 use App\Http\Controllers\Controller;
 
 class QuizController extends Controller
@@ -16,11 +16,7 @@ class QuizController extends Controller
     public function __construct(Quiz $quiz)
     {
         $this->quiz = $quiz;
-    }
-
-    public function home()
-    {
-        return view('quiz.home');
+        $this->middleware('auth');
     }
 
     public function evaluate()
@@ -33,25 +29,8 @@ class QuizController extends Controller
         return view('quiz.return_quiz');
     }
 
-    public function login()
-    {
-        return view('quiz.login');
-    }
-
-    public function softwares()
-    {
-        return view('quiz.softwares');
-    }
-
-    public function form()
-    {
-        return view('quiz.form');
-    }
-
-
     public function result($id)
     {
-
         $quiz = Quiz::find($id);
         if(is_null($quiz)){
             return redirect('quiz/home');
@@ -61,21 +40,6 @@ class QuizController extends Controller
         $compartilhamento = self::ParcialCalc($quiz);
         $nomeSoftware = $quiz->software;
         return view('quiz.result', ['total' => $total, 'compartilhamento' => $compartilhamento, 'nomeSoftware' => $nomeSoftware ]);
-    }
-    
-    public function contact()
-    {
-    	return view('quiz.contact');
-    }
-
-    public function guide()
-    {
-        return view('quiz.guide');
-    }
-
-    public function about()
-    {
-        return view('quiz.about');
     }
 
     public function evaluatesoftware(StoreQuizRequest $request)

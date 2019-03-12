@@ -2,6 +2,7 @@
 <html lang="en">
 
   <head>
+    <link rel="shortcut icon" type="image/png" href="{{ url('/img/iconelogo.png')}}" >
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -38,13 +39,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="{{ url('quiz/home') }}">Home</a>
+              <a class="nav-link" href="{{ url('innovation/home') }}">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url('quiz/about') }}">Equipe</a>
+              <a class="nav-link" href="{{ url('innovation/about') }}">Equipe</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url('quiz/contact') }}">Contato</a>
+              <a class="nav-link" href="{{ url('innovation/contact') }}">Contato</a>
             </li>
           </ul>
         </div>
@@ -70,20 +71,13 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <img class="rounded mx-auto d-block"   src="{{ url('/img/rafael.jpg')}}">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
+          <img src="{{ url('/img/rafael3.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
+          <p class="text-justify">Sou Rafael Santos, graduado em Licenciatura em Computação (UFRPE), mestrando no programa de Pós Graduação em Informática Aplicada (pela UFRPE também), pesquisando com avaliação de softwares de suporte à educação (pesquisa que deu origem a essa ferramenta). Trabalhei com desenvolvimento de sistemas web, também fui professor de desenvolvimento de jogos para crianças e adolescentes e agora concluindo o mestrado. Nos tempos livres me estressando jogando dotinha ou FIFA e, quando tem episódio novo, assistindo Vikings. :)</p>
+          <p class="text-justify">E essa galerinha gente boa foi quem me ajudou a concluir essa ferramenta de alguma forma. =)</p>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <ul class="list-inline text-center">
-              <li class="list-inline-item">
-                <a href="http://www.twitter.com/sembirafa" target="_blank">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
               <li class="list-inline-item">
                 <a href="http://www.facebook.com/sembirafa" target="_blank">
                   <span class="fa-stack fa-lg">
@@ -92,13 +86,21 @@
                   </span>
                 </a>
               </li>
+              <li class="list-inline-item">
+                <a href="https://instagram.com/rafael_santos90/" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
           <hr>
-          <img class="rounded mx-auto d-block" src="{{ url('/img/ricardo.jpg')}}">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+          <img src="{{ url('/img/ricardo.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
+          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
           <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
@@ -124,8 +126,8 @@
         </div>
       </div>
       <hr>
-      <img class="rounded mx-auto d-block" src="{{ url('/img/rhurick.jpg')}}">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+          <img src="{{ url('/img/rhurick.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
+          <p class="text-justify">Meu nome é Christian, sou analista de sistemas, graduado em sistemas de informação pela Joaquim Nabuco, pós graduado em gestão de projetos pela Fafire, atualmente trabalho como desenvolvedor de software, aficionado por tecnologia,  nas horas vagas gosto de ler artigos, livros , séries, e alguns jogos (dota2 e outros) =].</p>
           <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
@@ -146,12 +148,20 @@
                   </span>
                 </a>
               </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/rhurick.c/" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
             <hr>
-            <img class="rounded mx-auto d-block" src="{{ url('/img/dyego.jpg')}}">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+          <img src="{{ url('/img/dyego.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
             <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
@@ -172,13 +182,45 @@
                     </span>
                   </a>
                 </li>
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com/dyegocarlosmorais/" target="_blank">
+                    <span class="fa-stack fa-lg">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+            <hr>
+          <img src="{{ url('/img/thiago.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
+            <p class="text-justify">Me chamo Thiago Martins, graduado em Licenciatura em Computação (UPE), mestrando em Informática Aplicada pela UFRPE, pesquisador na área de Avaliação de Desempenho de Sistemas. Manjo um pouco de design gráfico, fazendo logos, flyer, convites e o que mais aparecer hehe. Nas horas vagas sou metido a guitarrista, produtor de eventos e viajante :)</p>
+            <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <ul class="list-inline text-center">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/thiago.martins.37017" target="_blank">
+                    <span class="fa-stack fa-lg">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com/tmartiiins/" target="_blank">
+                    <span class="fa-stack fa-lg">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
         </div>
-        <hr>
       </div>
-      <hr>
       </div>
     </div>
   </div>

@@ -25,12 +25,6 @@ class CreateQuizTable extends Migration
             $table->integer('question7');
             $table->integer('question8');
             $table->integer('question9');
-            $table->integer('question10');
-            $table->integer('question11');
-            $table->integer('question12');
-            $table->integer('question13');
-            $table->integer('question14');
-            $table->integer('question15');
             $table->timestamps();
         });
     }

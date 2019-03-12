@@ -2,6 +2,7 @@
 <html lang="en">
 
   <head>
+    <link rel="shortcut icon" type="image/png" href="{{ url('/img/iconelogo.png')}}" >
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -58,13 +59,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="{{ url('quiz/home') }}">Home</a>
+              <a class="nav-link" href="{{ url('innovation/home') }}">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url('quiz/about') }}">Equipe</a>
+              <a class="nav-link" href="{{ url('innovation/about') }}">Equipe</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url('quiz/contact') }}">Contato</a>
+              <a class="nav-link" href="{{ url('innovation/contact') }}">Contato</a>
             </li>
           </ul>
         </div>
@@ -115,7 +116,7 @@
                   <div class="dropdown">
 
                     <div class="form-group">
-                      <select class="form-control" id="">
+                      <select name="software" class="form-control" id="">
                         <option>Scracth</option>
                         <option>Moodle</option>
                         <option>Google Suite (Docs, Planilhas, etc.)</option>
@@ -126,7 +127,7 @@
                     </div>
                   </div>
               </div>
-              
+              <input type="hidden" name="user_id" value="{{ Auth::user()->id }}">
               <hr>
               <ul class="px-0"> 
                 <li class="row form-group mx-0 margintop">
@@ -358,7 +359,7 @@
               </ul>
               <div align="center"> 
                 <div>
-                <a href="{{ url('quiz/home') }}" class="btn btn-primary"> Voltar </a>
+                <a href="{{ url('innovation/home') }}" class="btn btn-primary"> Voltar </a>
                 <button type="submit" class="btn btn-primary" >Enviar</button>
                 <!-- <button type="submit" class="btn btn-primary">Refazer</button> -->
                 </div>
