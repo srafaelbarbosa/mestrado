@@ -72,8 +72,8 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <img src="{{ url('/img/rafael3.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
-          <p>Sou Rafael Santos, graduado em Licenciatura em Computação (UFRPE), mestrando no programa de Pós Graduação em Informática Aplicada (pela UFRPE também), pesquisando com avaliação de softwares de suporte à educação (pesquisa que deu origem a essa ferramenta). Trabalhei com desenvolvimento de sistemas web, também fui professor de desenvolvimento de jogos para crianças e adolescentes e agora concluindo o mestrado. Nos tempos livres me estressando jogando dotinha ou FIFA e, quando tem episódio novo, assistindo Vikings. :)</p>
-          <p>E essa galerinha gente boa foi quem me ajudou a concluir essa ferramenta de alguma forma. =)</p>
+          <p class="text-justify">Sou Rafael Santos, graduado em Licenciatura em Computação (UFRPE), mestrando no programa de Pós Graduação em Informática Aplicada (pela UFRPE também), pesquisando com avaliação de softwares de suporte à educação (pesquisa que deu origem a essa ferramenta). Trabalhei com desenvolvimento de sistemas web, também fui professor de desenvolvimento de jogos para crianças e adolescentes e agora concluindo o mestrado. Nos tempos livres me estressando jogando dotinha ou FIFA e, quando tem episódio novo, assistindo Vikings. :)</p>
+          <p class="text-justify">E essa galerinha gente boa foi quem me ajudou a concluir essa ferramenta de alguma forma. =)</p>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
@@ -100,7 +100,7 @@
       </div>
           <hr>
           <img src="{{ url('/img/ricardo.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
           <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
@@ -127,7 +127,7 @@
       </div>
       <hr>
           <img src="{{ url('/img/rhurick.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
-          <p>Meu nome é Christian, sou analista de sistemas, graduado em sistemas de informação pela Joaquim Nabuco, pós graduado em gestão de projetos pela Fafire, atualmente trabalho como desenvolvedor de software, aficionado por tecnologia,  nas horas vagas gosto de ler artigos, livros , séries, e alguns jogos (dota2 e outros) =].</p>
+          <p class="text-justify">Meu nome é Christian, sou analista de sistemas, graduado em sistemas de informação pela Joaquim Nabuco, pós graduado em gestão de projetos pela Fafire, atualmente trabalho como desenvolvedor de software, aficionado por tecnologia,  nas horas vagas gosto de ler artigos, livros , séries, e alguns jogos (dota2 e outros) =].</p>
           <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
@@ -161,7 +161,7 @@
         </div>
             <hr>
           <img src="{{ url('/img/dyego.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
             <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
@@ -195,7 +195,7 @@
           </div>
             <hr>
           <img src="{{ url('/img/thiago.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
-            <p>Me chamo Thiago Martins, graduado em Licenciatura em Computação (UPE), mestrando em Informática Aplicada pela UFRPE, pesquisador na área de Avaliação de Desempenho de Sistemas. Manjo um pouco de design gráfico, fazendo logos, flyer, convites e o que mais aparecer hehe. Nas horas vagas sou metido a guitarrista, produtor de eventos e viajante :)</p>
+            <p class="text-justify">Me chamo Thiago Martins, graduado em Licenciatura em Computação (UPE), mestrando em Informática Aplicada pela UFRPE, pesquisador na área de Avaliação de Desempenho de Sistemas. Manjo um pouco de design gráfico, fazendo logos, flyer, convites e o que mais aparecer hehe. Nas horas vagas sou metido a guitarrista, produtor de eventos e viajante :)</p>
             <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
