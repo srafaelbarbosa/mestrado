@@ -3,6 +3,8 @@
 <html lang="en">
 
   <head>
+    <link rel="shortcut icon" type="image/png" href="{{ url('/img/iconelogo.png')}}" >
+
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -70,8 +72,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1>Avaliação e Guia para Desenvolvimento de Softwares Educacionais</h1>
-              <span class="subheading">Uma abordagem utilizando Indicadores e Determinantes de Inovação</span>
+              <img src="{{ url('/img/logo2.png')}}" class="img-fluid" alt="Responsive image">
             </div>
           </div>
         </div>
