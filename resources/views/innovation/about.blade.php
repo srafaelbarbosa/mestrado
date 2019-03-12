@@ -71,8 +71,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <img class="rounded mx-auto d-block"   src="{{ url('/img/rafael.jpg')}}">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
+          <img src="{{ url('/img/rafael3.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
+          <p>Sou Rafael Santos, graduado em Licenciatura em Computação (UFRPE), mestrando no programa de Pós Graduação em Informática Aplicada (pela UFRPE também), pesquisando com avaliação de softwares de suporte à educação (pesquisa que deu origem a essa ferramenta). Trabalhei com desenvolvimento de sistemas web, também fui professor de desenvolvimento de jogos para crianças e adolescentes e agora concluindo o mestrado. Nas horas vagas jogando um dotinha ou assistindo Vikings. :)</p>
+          <p>E essa galerinha gente boa foi quem me ajudou a concluir essa ferramenta de alguma forma. =)</p>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
@@ -98,7 +99,7 @@
         </div>
       </div>
           <hr>
-          <img class="rounded mx-auto d-block" src="{{ url('/img/ricardo.jpg')}}">
+          <img src="{{ url('/img/ricardo.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
           <div class="container">
         <div class="row">
@@ -125,8 +126,8 @@
         </div>
       </div>
       <hr>
-      <img class="rounded mx-auto d-block" src="{{ url('/img/rhurick.jpg')}}">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+          <img src="{{ url('/img/rhurick.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
+          <p>Meu nome é Christian, sou analista de sistemas, graduado em sistemas de informação pela Joaquim Nabuco, pós graduado em gestão de projetos pela Fafire, atualmente trabalho como desenvolvedor de software, aficionado por tecnologia,  nas horas vagas gosto de ler artigos, livros , séries, e alguns jogos (dota2 e outros) =].</p>
           <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
@@ -151,7 +152,33 @@
           </div>
         </div>
             <hr>
-            <img class="rounded mx-auto d-block" src="{{ url('/img/dyego.jpg')}}">
+          <img src="{{ url('/img/dyego.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+            <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <ul class="list-inline text-center">
+                <li class="list-inline-item">
+                  <a href="#" target="_blank">
+                    <span class="fa-stack fa-lg">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/dyego.carlos.7" target="_blank">
+                    <span class="fa-stack fa-lg">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+            <hr>
+          <img src="{{ url('/img/thiago.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
             <div class="container">
           <div class="row">
@@ -177,9 +204,7 @@
             </div>
           </div>
         </div>
-        <hr>
       </div>
-      <hr>
       </div>
     </div>
   </div>
