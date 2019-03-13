@@ -48,6 +48,8 @@
 
     <!-- Main Content -->
     <div class="container">
+      <img src="{{ url('/img/logo.png')}}" class="img-fluid" alt="Responsive image">
+      <hr>
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <img src="{{ url('/img/rafael3.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
