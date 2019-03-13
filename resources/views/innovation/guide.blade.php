@@ -166,7 +166,7 @@
                 <hr>
                 <h2>Indicadores de Inovação Educacionais:</h2>
                  <p class="text-justify">Estão aqui listados para que saibam como os softwares serão avaliados nesta ferramenta, uma espécie de Desenvolvimento Orientado a Testes (TDD). Já sabendo quais os pontos em que os softwares serão avaliados para serem considerados inovadores, sem a necessidade de fazer toda implementação do software para depois avaliar.</p>
-                 <p class="text-justify">Aqui os softwares de suporte a educação serão avaliados como habilitador das habilidades e competências do Século XXI.</p>
+                 <p class="text-justify">Aqui os softwares de suporte à educação serão avaliados como habilitador das habilidades e competências do Século XXI.</p>
                  <ul class="row">
                    <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i01">
                     <i class="fas fa-hiking fa-3x"></i>
