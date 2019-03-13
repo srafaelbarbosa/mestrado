@@ -27,28 +27,7 @@
 
   <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url('innovation/home') }}">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url('innovation/about') }}">Equipe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url('innovation/contact') }}">Contato</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    @include('partials.menu-partial')
 
     <!-- Page Header -->
 
@@ -73,15 +52,16 @@
           <div class="post-preview">
             <h3>Agradecemos sua participação para avaliação dos Softwares Educacionais! :)</h3>
             <br>
-            <h3>O link para o resultado de todas as análises pode ser encontrado na página inicial.</h3>
-              <hr>
-              <div align="center"> 
-                <div>
-                <a href="{{ url('innovation/home') }}" class="btn btn-primary"> Voltar </a>
-                </div>
-
-              </div>
           </div>
+              <hr>
+                <div align="center"> 
+                  <div>
+                  <a href="{{ url('innovation/home') }}" class="btn btn-primary"> Início </a>
+                  <a href="{{ url('innovation/softwares') }}" class="btn btn-primary"> Resultado</a>
+                  <!-- <button type="submit" class="btn btn-primary">Refazer</button> -->
+                  </div>
+
+                </div>
           <hr>
           <!-- Pager -->
           <!--<div class="clearfix">
