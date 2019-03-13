@@ -53,7 +53,7 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <img src="{{ url('/img/rafael3.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
-          <p class="text-justify">Sou Rafael Santos, graduado em Licenciatura em Computação (UFRPE), mestrando no programa de Pós Graduação em Informática Aplicada (pela UFRPE também), minha pesquisa se baseia no desenvolvimento de uma abordagem para avaliação de softwares de suporte à educação (gerou a essa ferramenta). Trabalhei com desenvolvimento de sistemas web, também fui professor de desenvolvimento de jogos para crianças e adolescentes e agora concluindo o mestrado. Nos tempos livres jogando (me estressando) dotinha ou FIFA e, quando tem episódio novo, assistindo Vikings. :)</p>
+          <p class="text-justify">Sou Rafael Santos, graduado em Licenciatura em Computação (UFRPE), mestrando no programa de Pós Graduação em Informática Aplicada (pela UFRPE também), minha pesquisa se baseia no desenvolvimento de uma abordagem para avaliação de softwares de suporte à educação (gerou essa ferramenta). Trabalhei com desenvolvimento de sistemas web, também fui professor de desenvolvimento de jogos para crianças e adolescentes e agora concluindo o mestrado. Nos tempos livres jogando (me estressando) dotinha ou FIFA e, quando tem episódio novo, assistindo Vikings. :)</p>
           <p class="text-justify">E essa galerinha gente boa foi quem me ajudou a concluir essa ferramenta de alguma forma. =)</p>
       <div class="container">
         <div class="row">
