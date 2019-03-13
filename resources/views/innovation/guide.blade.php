@@ -56,7 +56,7 @@
         background-color: #ff884d;
       }
       .determinantes-list li.indicador{
-        background-color: #9065e5;
+        background-color: #ff3f3f;
       }
       .marginbottom{
         margin-bottom: 1em;
@@ -487,7 +487,7 @@
                       <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador do aprendizado autônomo e autodirigido</h5>
                         <br>
-                        <span class="badge badge-success">Indicador</span>
+                        <span class="badge badge-danger">Indicador</span>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -510,7 +510,7 @@
                       <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador da adaptação a diferentes modos e paradigmas de aprendizagem</h5>
                         <br>
-                        <span class="badge badge-success">Indicador</span>
+                        <span class="badge badge-danger">Indicador</span>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -533,7 +533,7 @@
                       <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador do aprendizado personalizado</h5>
                         <br>
-                        <span class="badge badge-success">Indicador</span>
+                        <span class="badge badge-danger">Indicador</span>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -556,7 +556,7 @@
                       <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador da contribuição individual em um esforço coletivo para realização de uma tarefa</h5>
                         <br>
-                        <span class="badge badge-success">Indicador</span>
+                        <span class="badge badge-danger">Indicador</span>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -579,7 +579,7 @@
                       <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador do aprendizado em pares</h5>
                         <br>
-                        <span class="badge badge-success">Indicador</span>
+                        <span class="badge badge-danger">Indicador</span>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -602,7 +602,7 @@
                       <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador da comunicação entre indivíduos</h5>
                         <br>
-                        <span class="badge badge-success">Indicador</span>
+                        <span class="badge badge-danger">Indicador</span>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -625,7 +625,7 @@
                       <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador da comunicação criativa do aprendizado</h5>
                         <br>
-                        <span class="badge badge-success">Indicador</span>
+                        <span class="badge badge-danger">Indicador</span>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -648,7 +648,7 @@
                       <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador da resolução criativa de problemas</h5>
                         <br>
-                        <span class="badge badge-success">Indicador</span>
+                        <span class="badge badge-danger">Indicador</span>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -671,7 +671,7 @@
                       <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador da transformação do conhecimento</h5>
                         <br>
-                        <span class="badge badge-success">Indicador</span>
+                        <span class="badge badge-danger">Indicador</span>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
