@@ -127,7 +127,7 @@
             </div>
             <br>
             <div align="center">
-                <a href="{{ url('quiz/softwares') }}" class="btn btn-primary"> Voltar </a>
+                <a href="{{ url('innovation/softwares') }}" class="btn btn-primary"> Voltar </a>
             </div>
         </div>
     <article>
