@@ -72,7 +72,7 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <img src="{{ url('/img/rafael3.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
-          <p class="text-justify">Sou Rafael Santos, graduado em Licenciatura em Computação (UFRPE), mestrando no programa de Pós Graduação em Informática Aplicada (pela UFRPE também), pesquisando com avaliação de softwares de suporte à educação (pesquisa que deu origem a essa ferramenta). Trabalhei com desenvolvimento de sistemas web, também fui professor de desenvolvimento de jogos para crianças e adolescentes e agora concluindo o mestrado. Nos tempos livres me estressando jogando dotinha ou FIFA e, quando tem episódio novo, assistindo Vikings. :)</p>
+          <p class="text-justify">Sou Rafael Santos, graduado em Licenciatura em Computação (UFRPE), mestrando no programa de Pós Graduação em Informática Aplicada (pela UFRPE também), minha pesquisa se baseia no desenvolvimento de uma abordagem para avaliação de softwares de suporte à educação (gerou a essa ferramenta). Trabalhei com desenvolvimento de sistemas web, também fui professor de desenvolvimento de jogos para crianças e adolescentes e agora concluindo o mestrado. Nos tempos livres jogando (me estressando) dotinha ou FIFA e, quando tem episódio novo, assistindo Vikings. :)</p>
           <p class="text-justify">E essa galerinha gente boa foi quem me ajudou a concluir essa ferramenta de alguma forma. =)</p>
       <div class="container">
         <div class="row">
@@ -100,19 +100,11 @@
       </div>
           <hr>
           <img src="{{ url('/img/ricardo.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
-          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+          <p class="text-justify">Doutor em Ciência da Computação (2008) pelo Centro de Informática (CIn) da Universidade Federal de Pernambuco (UFPE). Professor Associado do Departamento de Computação (DC) da Universidade Federal Rural de Pernambuco (UFRPE). Professor Permanente do Programa de Pós-graduação em Informática Aplicada (PPGIA) da UFRPE. Diretor de TI da UFRPE entre Junho/2012 a Dezembro/2017. Atua nas seguintes áreas: Governança Ágil, Inovação em Soluções de Software, Inovação em Educação, Gestão do Conhecimento e Gestão de Produtos de Software.</p>
           <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <ul class="list-inline text-center">
-              <li class="list-inline-item">
-                <a href="#" target="_blank">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
               <li class="list-inline-item">
                 <a href="https://www.facebook.com/ricardo.souza.792303" target="_blank">
                   <span class="fa-stack fa-lg">
@@ -161,19 +153,11 @@
         </div>
             <hr>
           <img src="{{ url('/img/dyego.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+            <p class="text-justify">Licenciado em Computação pela Universidade Federal Rural de Pernambuco (UFRPE), foi professor substituto do Departamento de Educação da mesma instituição. É mestre em Ciência da Computação pela Universidade Federal de Pernambuco (UFPE). Integrante do projeto DEMULTS (Desenvolvimento Educacional de Multimídias Sustentáveis) desde 2012 e líder do grupo de pesquisa de mesmo nome desde 2017. Atualmente, é doutorando em Ciência da Computação pela UFPE e atua principalmente nos seguintes temas: Informática na Educação, Educação em Computação e Interação Humano-Computador. Possui experiência em consultoria de Design de Experiência do Usuário e Desenvolvimento Front-End.</p>
             <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
               <ul class="list-inline text-center">
-                <li class="list-inline-item">
-                  <a href="#" target="_blank">
-                    <span class="fa-stack fa-lg">
-                      <i class="fas fa-circle fa-stack-2x"></i>
-                      <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>
                 <li class="list-inline-item">
                   <a href="https://www.facebook.com/dyego.carlos.7" target="_blank">
                     <span class="fa-stack fa-lg">
@@ -195,7 +179,7 @@
           </div>
             <hr>
           <img src="{{ url('/img/thiago.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
-            <p class="text-justify">Me chamo Thiago Martins, graduado em Licenciatura em Computação (UPE), mestrando em Informática Aplicada pela UFRPE, pesquisador na área de Avaliação de Desempenho de Sistemas. Manjo um pouco de design gráfico, fazendo logos, flyer, convites e o que mais aparecer hehe. Nas horas vagas sou metido a guitarrista, produtor de eventos e viajante :)</p>
+            <p class="text-justify">Me chamo Thiago Martins, graduado em Licenciatura em Computação (UPE), mestrando em Informática Aplicada pela UFRPE, pesquisador na área de Avaliação de Desempenho de Sistemas. Manjo um pouco de design gráfico, fazendo logos, flyer, convites e o que mais aparecer hehe. Nas horas vagas sou metido a guitarrista, produtor de eventos e viajante. :)</p>
             <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">

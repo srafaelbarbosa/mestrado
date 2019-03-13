@@ -62,6 +62,16 @@
           </div>
           <hr>
           <div class="post-preview">
+            <a href="{{ url('innovation/softwares') }}">
+              <h2 class="post-title">
+                Resultado da avaliação dos educadores para Softwares Educacionais.
+              </h2>
+              <h3 class="post-subtitle">
+                Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares Educacionais inovadores.
+              </h3>
+            </a>
+          </div>
+          <div class="post-preview">
             <a href="{{ url('innovation/guide') }}">
               <h2 class="post-title">
                 Guia de desenvolvimento do Software Educacional pelos Determinantes de Inovação.
@@ -71,16 +81,6 @@
               </h3>
             </a>
             <hr>
-          </div>
-          <div class="post-preview">
-            <a href="{{ url('innovation/softwares') }}">
-              <h2 class="post-title">
-                Resultado da avaliação dos educadores para Softwares Educacionais.
-              </h2>
-              <h3 class="post-subtitle">
-                Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares Educacionais inovadores.
-              </h3>
-            </a>
           </div>
           <hr>
           <!-- Pager -->
