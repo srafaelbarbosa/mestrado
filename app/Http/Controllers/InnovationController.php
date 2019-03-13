@@ -42,4 +42,9 @@ class InnovationController extends Controller
     {
         return view('innovation.about');
     }
+
+     public function return_quiz()
+    {
+        return view('innovation.return_quiz');
+    }
 }

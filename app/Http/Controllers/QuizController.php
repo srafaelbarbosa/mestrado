@@ -45,12 +45,11 @@ class QuizController extends Controller
     public function evaluatesoftware(StoreQuizRequest $request)
     {
         $quiz = $this->quiz->create($request->all());
-        return redirect()->action('QuizController@result', ['id' => $quiz->id]);
+        return view('quiz.return_quiz');
     }
 
     private static function calculateResult($quiz)
     {
-
         $total  = 0;
         foreach ($quiz->getAttributes() as $key => $value) {
             if($value == 5){
@@ -61,6 +60,7 @@ class QuizController extends Controller
         $total = $total/15;
         return round($total,2);
     }
+
     //adicionar função com seção de perguntas
     private static function ParcialCalc($quiz)
     {
@@ -75,7 +75,6 @@ class QuizController extends Controller
             $total++;
         }
         return $total!=3;
-        
     }
 }
 
