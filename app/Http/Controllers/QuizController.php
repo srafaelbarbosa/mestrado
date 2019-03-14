@@ -35,7 +35,7 @@ class QuizController extends Controller
         if(is_null($quiz)){
             return redirect('quiz/home');
         }
-        $total = self::calculateResult($quiz);
+        $total = self::calculateNotePerRow($quiz);
         //adicionar uma variável e depois na index
         $compartilhamento = self::ParcialCalc($quiz);
         $nomeSoftware = $quiz->software;
@@ -48,16 +48,22 @@ class QuizController extends Controller
         return view('quiz.return_quiz');
     }
 
-    private static function calculateResult($quiz)
+    private static function calculateNotePerRow($quiz)
     {
         $total  = 0;
+
         foreach ($quiz->getAttributes() as $key => $value) {
-            if($value == 5){
-                $total ++;
+            
+            if($value == 4){
+                $total += 1;
+            }
+            
+            if($value == 3){
+                $total += 0.5;
             }
         }
         
-        $total = $total/15;
+        $total = $total/9;
         return round($total,2);
     }
 
