@@ -1,0 +1,131 @@
+[1mdiff --git a/resources/views/innovation/home.blade.php b/resources/views/innovation/home.blade.php[m
+[1mindex 1ca0f11..8d59f56 100644[m
+[1m--- a/resources/views/innovation/home.blade.php[m
+[1m+++ b/resources/views/innovation/home.blade.php[m
+[36m@@ -53,10 +53,10 @@[m
+           <div class="post-preview">[m
+             <a href="{{ url('quiz/evaluate') }}">[m
+               <h2 class="post-title">[m
+[31m-                Avaliação de Softwares Educacionais pelos Indicadores de Inovação[m
+[32m+[m[32m                Avaliação de Softwares de suporte à Educação pelos Indicadores de Inovação[m
+               </h2>[m
+               <h3 class="post-subtitle">[m
+[31m-                Educadores, acessem esse link para responder sobre o Software Educacional já utilizado.[m
+[32m+[m[32m                Educadores, acessem esse link para responder sobre o Software de suporte à Educação já utilizado.[m
+               </h3>[m
+             </a>[m
+           </div>[m
+[36m@@ -64,20 +64,20 @@[m
+           <div class="post-preview">[m
+             <a href="{{ url('innovation/softwares') }}">[m
+               <h2 class="post-title">[m
+[31m-                Resultado da avaliação dos educadores para Softwares Educacionais.[m
+[32m+[m[32m                Resultado da avaliação dos educadores para Softwares de suporte à Educação.[m
+               </h2>[m
+               <h3 class="post-subtitle">[m
+[31m-                Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares Educacionais inovadores.[m
+[32m+[m[32m                Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares de suporte à Educação Inovadores.[m
+               </h3>[m
+             </a>[m
+           </div>[m
+           <div class="post-preview">[m
+             <a href="{{ url('innovation/guide') }}">[m
+               <h2 class="post-title">[m
+[31m-                Guia de desenvolvimento do Software Educacional pelos Determinantes de Inovação.[m
+[32m+[m[32m                Guia de desenvolvimento do Software de suporte à Educação pelos Determinantes de Inovação.[m
+               </h2>[m
+               <h3 class="post-subtitle">[m
+[31m-                Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares Educacionais inovadores.[m
+[32m+[m[32m                Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares de suporte à Educação Inovadores.[m
+               </h3>[m
+             </a>[m
+             <hr>[m
+[1mdiff --git a/resources/views/innovation/return_quiz.blade.php b/resources/views/innovation/return_quiz.blade.php[m
+[1mindex 9164353..4eb51d0 100644[m
+[1m--- a/resources/views/innovation/return_quiz.blade.php[m
+[1m+++ b/resources/views/innovation/return_quiz.blade.php[m
+[36m@@ -50,7 +50,7 @@[m
+       <div class="row">[m
+         <div class="col-lg-8 col-md-10 mx-auto">[m
+           <div class="post-preview">[m
+[31m-            <h3>Agradecemos sua participação para avaliação dos Softwares Educacionais! :)</h3>[m
+[32m+[m[32m            <h3>Agradecemos sua participação para avaliação dos Softwares de suporte à Educação! :)</h3>[m
+             <br>[m
+             <h3>O link para o resultado de todas as análises pode ser encontrado na página inicial.</h3>[m
+               <hr>[m
+[1mdiff --git a/resources/views/innovation/softwares.blade.php b/resources/views/innovation/softwares.blade.php[m
+[1mindex e174644..ecf5e27 100644[m
+[1m--- a/resources/views/innovation/softwares.blade.php[m
+[1m+++ b/resources/views/innovation/softwares.blade.php[m
+[36m@@ -11,7 +11,7 @@[m
+     <meta name="description" content="">[m
+     <meta name="author" content="">[m
+ [m
+[31m-    <title>Softwares Avaliados</title>[m
+[32m+[m[32m    <title>Softwares de suporte à Educação Avaliados</title>[m
+ [m
+     <!-- Bootstrap core CSS -->[m
+     <link href="{{ url('/css/bootstrap.min.css') }}" rel="stylesheet">[m
+[36m@@ -40,7 +40,7 @@[m
+           <div class="col-lg-8 col-md-10 mx-auto">[m
+             <div class="site-heading">[m
+               <h1>Resultado das Avaliações</h1>[m
+[31m-              <span class="subheading">Aqui estão os Softwares Educacionais avaliados pelos educadores.</span>[m
+[32m+[m[32m              <span class="subheading">Aqui estão os Softwares de suporte à Educação avaliados pelos educadores.</span>[m
+             </div>[m
+           </div>[m
+         </div>[m
+[36m@@ -63,7 +63,7 @@[m
+         <div class="row">[m
+             <div class="col-md-10">[m
+                 <a href="#"><img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/scratch2.jpg')}}" /></a>[m
+[31m-                <p>Com o Scratch, pode programar as suas próprias estórias, jogos e animações interactivos – e partilhar as suas criações com outros na comunidade em linha. O Scratch ajuda os jovens a pensar de forma criativa, a raciocinar sistematicamente e a trabalhar colaborativamente — competências essenciais à vida no século XXI. O Scratch é um projecto do Lifelong Kindergarten Group do MIT Media Lab. É disponibilizado gratuitamente.</p>[m
+[32m+[m[32m                <p class="text-justify">Com o Scratch, pode programar as suas próprias estórias, jogos e animações interactivos – e partilhar as suas criações com outros na comunidade em linha. O Scratch ajuda os jovens a pensar de forma criativa, a raciocinar sistematicamente e a trabalhar colaborativamente — competências essenciais à vida no século XXI. O Scratch é um projecto do Lifelong Kindergarten Group do MIT Media Lab. É disponibilizado gratuitamente.</p>[m
+             </div>[m
+         </div>[m
+     </div>[m
+[36m@@ -73,7 +73,7 @@[m
+         <div class="row">[m
+             <div class="col-md-10">[m
+                 <a href="#"><img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/moodle.jpg')}}" /></a>[m
+[31m-                <p>O Moodle é uma plataforma de aprendizado projetada para fornecer aos educadores, administradores e alunos um sistema robusto, seguro e integrado para criar ambientes de aprendizado personalizados.</p>[m
+[32m+[m[32m                <p class="text-justify">O Moodle é uma plataforma de aprendizado projetada para fornecer aos educadores, administradores e alunos um sistema robusto, seguro e integrado para criar ambientes de aprendizado personalizados.</p>[m
+             </div>[m
+         </div>[m
+     </div>[m
+[36m@@ -83,7 +83,7 @@[m
+         <div class="row">[m
+             <div class="col-md-10">[m
+                 <a href="#"><img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/gsuite.jpg')}}" /></a>[m
+[31m-                <p>Com o Google Suite for Education, os professores podem criar oportunidades de aprendizagem, simplificar as tarefas administrativas e desafiar os alunos a pensar de forma crítica, tudo isso sem interromper os fluxos de trabalho em andamento.</p>[m
+[32m+[m[32m                <p class="text-justify">Com o Google Suite for Education, os professores podem criar oportunidades de aprendizagem, simplificar as tarefas administrativas e desafiar os alunos a pensar de forma crítica, tudo isso sem interromper os fluxos de trabalho em andamento.</p>[m
+             </div>[m
+         </div>[m
+     </div>[m
+[36m@@ -93,7 +93,7 @@[m
+         <div class="row">[m
+             <div class="col-md-10">[m
+                 <a href="#"><img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/appinventor.jpg')}}" /></a>[m
+[31m-                <p>O MIT App Inventor é um ambiente de programação visual e intuitivo que permite que todos - até mesmo crianças - criem aplicativos totalmente funcionais para smartphones e tablets. Ferramenta baseada em blocos facilita a criação de aplicativos complexos e de alto impacto em um tempo significativamente menor do que os ambientes de programação tradicionais. O projeto MIT App Inventor procura democratizar o desenvolvimento de software, capacitando todas as pessoas, especialmente os jovens, para passar do consumo de tecnologia para a criação de tecnologia.</p>[m
+[32m+[m[32m                <p class="text-justify">O MIT App Inventor é um ambiente de programação visual e intuitivo que permite que todos - até mesmo crianças - criem aplicativos totalmente funcionais para smartphones e tablets. Ferramenta baseada em blocos facilita a criação de aplicativos complexos e de alto impacto em um tempo significativamente menor do que os ambientes de programação tradicionais.</p>[m
+             </div>[m
+         </div>[m
+     </div>[m
+[36m@@ -103,7 +103,7 @@[m
+         <div class="row">[m
+             <div class="col-md-10">[m
+                 <a href="#"><img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/gclassroom.jpg')}}" /></a>[m
+[31m-                <p>Google Classroom é uma ferramenta simplificada e fácil de usar que ajuda os professores a gerenciar os cursos. Com o Google Classroom, os educadores podem criar turmas, distribuir tarefas, avaliar e enviar feedback e ver tudo em um só lugar.</p>[m
+[32m+[m[32m                <p class="text-justify">Google Classroom é uma ferramenta simplificada e fácil de usar que ajuda os professores a gerenciar os cursos. Com o Google Classroom, os educadores podem criar turmas, distribuir tarefas, avaliar e enviar feedback e ver tudo em um só lugar.</p>[m
+             </div>[m
+         </div>[m
+     </div>[m
+[36m@@ -113,7 +113,7 @@[m
+         <div class="row">[m
+             <div class="col-md-10">[m
+                 <a href="#"><img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/lightBot.jpg')}}" /></a>[m
+[31m-                <p>LightBot é um jogo de quebra-cabeça baseado em codificação; secretamente ensina lógica de programação enquanto se joga. Tem sido jogado por mais de 20 milhões de crianças e tem sido usado por dezenas de milhares de professores em todo o mundo.</p>[m
+[32m+[m[32m                <p class="text-justify">LightBot é um jogo de quebra-cabeça baseado em codificação; secretamente ensina lógica de programação enquanto se joga. Tem sido jogado por mais de 20 milhões de crianças e tem sido usado por dezenas de milhares de professores em todo o mundo.</p>[m
+             </div>[m
+         </div>[m
+     </div>[m

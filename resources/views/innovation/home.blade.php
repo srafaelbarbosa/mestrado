@@ -53,10 +53,10 @@
           <div class="post-preview">
             <a href="{{ url('quiz/evaluate') }}">
               <h2 class="post-title">
-                Avaliação de Softwares Educacionais pelos Indicadores de Inovação
+                Avaliação de Softwares de suporte à Educação pelos Indicadores de Inovação
               </h2>
               <h3 class="post-subtitle">
-                Educadores, acessem esse link para responder sobre o Software Educacional já utilizado.
+                Educadores, acessem esse link para responder sobre o Software de suporte à Educação já utilizado.
               </h3>
             </a>
           </div>
@@ -64,20 +64,20 @@
           <div class="post-preview">
             <a href="{{ url('innovation/softwares') }}">
               <h2 class="post-title">
-                Resultado da avaliação dos educadores para Softwares Educacionais.
+                Resultado da avaliação dos educadores para Softwares de suporte à Educação.
               </h2>
               <h3 class="post-subtitle">
-                Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares Educacionais inovadores.
+                Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares de suporte à Educação Inovadores.
               </h3>
             </a>
           </div>
           <div class="post-preview">
             <a href="{{ url('innovation/guide') }}">
               <h2 class="post-title">
-                Guia de desenvolvimento do Software Educacional pelos Determinantes de Inovação.
+                Guia de desenvolvimento do Software de suporte à Educação pelos Determinantes de Inovação.
               </h2>
               <h3 class="post-subtitle">
-                Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares Educacionais inovadores.
+                Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares de suporte à Educação Inovadores.
               </h3>
             </a>
             <hr>
