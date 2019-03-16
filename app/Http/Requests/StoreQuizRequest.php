@@ -24,8 +24,16 @@ class StoreQuizRequest extends FormRequest
     public function rules()
     {
         return [
-            'question1' => 'required',
             'software' => 'required',
+            'question1' => 'required',
+            'question2' => 'required',
+            'question3' => 'required',
+            'question4' => 'required',
+            'question5' => 'required',
+            'question6' => 'required',
+            'question7' => 'required',
+            'question8' => 'required',
+            'question9' => 'required',
         ];
     }
 }

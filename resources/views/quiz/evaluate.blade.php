@@ -95,7 +95,8 @@
                   <div class="dropdown">
 
                     <div class="form-group">
-                      <select name="software" class="form-control" id="">
+                      <select name="software" class="form-control" id="" required>
+                        <option value="">Selecione</option>
                         <option>Scracth</option>
                         <option>Moodle</option>
                         <option>Google Suite (Docs, Planilhas, etc.)</option>

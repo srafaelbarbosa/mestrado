@@ -29,6 +29,8 @@ Route::get('/innovation/softwares', 'InnovationController@softwares');
 Route::get('/innovation/login', 'InnovationController@login');
 
 Route::get('/innovation/return_quiz', 'InnovationController@return_quiz');
+
+Route::get('/innovation/result/{software}', 'InnovationController@result');
 // InnovationController
 
 
@@ -36,8 +38,6 @@ Route::get('/innovation/return_quiz', 'InnovationController@return_quiz');
 Route::get('/quiz/evaluate', 'QuizController@evaluate');
 
 Route::get('/quiz/result/{id}', 'QuizController@result');
-
-Route::get('/quiz/return_quiz', 'QuizController@return_quiz');
 
 Route::post('/quiz/evaluatesoftware', 'QuizController@evaluatesoftware');
 // QuizController

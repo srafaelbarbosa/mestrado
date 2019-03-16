@@ -24,11 +24,6 @@ class QuizController extends Controller
     	return view('quiz.evaluate');
     }
 
-    public function return_quiz()
-    {
-        return view('quiz.return_quiz');
-    }
-
     public function result($id)
     {
         $quiz = Quiz::find($id);
@@ -45,7 +40,7 @@ class QuizController extends Controller
     public function evaluatesoftware(StoreQuizRequest $request)
     {
         $quiz = $this->quiz->create($request->all());
-        return view('quiz.return_quiz');
+        return view('innovation.return_quiz');
     }
 
     private static function calculateNotePerRow($quiz)
