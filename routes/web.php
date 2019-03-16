@@ -30,12 +30,9 @@ Route::get('/innovation/login', 'InnovationController@login');
 
 Route::get('/innovation/return_quiz', 'InnovationController@return_quiz');
 
-<<<<<<< HEAD
 Route::get('/innovation/result/{software}', 'InnovationController@result');
-=======
-Route::get('/innovation/indicators', 'InnovationController@indicators');
 
->>>>>>> d1c56a06e221097c468412e68fa826b71139263b
+Route::get('/innovation/indicators', 'InnovationController@indicators');
 // InnovationController
 
 
