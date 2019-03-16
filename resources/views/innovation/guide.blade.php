@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Determinantes e Indicadores de Inovação</title>
+    <title>Determinantes de Inovação</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ url('/css/bootstrap.min.css') }}"  rel="stylesheet">
@@ -85,7 +85,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-heading">
-              <h1 align="center">Determinantes e Indicadores de Inovação para Softwares de Suporte à Educação</h1>
+              <h1 align="center">Determinantes de Inovação para Softwares de Suporte à Educação</h1>
             </div>
           </div>
         </div>
@@ -110,9 +110,14 @@
 
           
           <div class="col-lg-8 col-md-10 mx-auto">
-            <h4> <span class="label label-default">Determinantes de Inovação:</span></h4>
+            <h2>Determinantes de Inovação Educacionais</h2>
             <p class="text-justify">Os Determinantes de Inovação vão servir como um guia para desenvolvimento de Softwares de suporte à educação Inovadores.
             Estão dispostos por categorias e clicando neles, você poderá ter uma melhor descrição, a categoria e a referência. </p>
+            <p class="text-justify">Foram consideradas duas categorias para os Determinantes: </p>
+            <span class="badge badge-primary">Técnico</span>
+            <br>
+            <span class="badge badge-warning">Pedagógico</span>
+
             
             <hr>
             
@@ -164,48 +169,6 @@
                   </li>               
                 </ul>
                 <hr>
-                <h2>Indicadores de Inovação Educacionais:</h2>
-                 <p class="text-justify">Estão aqui listados para que saibam como os softwares serão avaliados nesta ferramenta, uma espécie de Desenvolvimento Orientado a Testes (TDD). Já sabendo quais os pontos em que os softwares serão avaliados para serem considerados inovadores, sem a necessidade de fazer toda implementação do software para depois avaliar.</p>
-                 <p class="text-justify">Aqui os softwares de suporte à educação serão avaliados como habilitador das habilidades e competências do Século XXI.</p>
-                 <ul class="row">
-                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i01">
-                    <i class="fas fa-hiking fa-3x"></i>
-                    <h5>Aprendizado autônomo e autodirigido</h5>
-                   </li>
-                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i02">  
-                       <i class="fas fa-chalkboard fa-3x"></i>
-                       <h5>Adaptação a diferentes modos e paradigmas de aprendizagem</h5>
-                   </li>
-                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i03">
-                       <i class="fas fa-book-reader fa-3x"></i> 
-                       <h5>Aprendizado personalizado</h5>
-                   </li>
-                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i04"> 
-                      <i class="fas fa-hands-helping fa-3x"></i>  
-                       <h5>Contribuição individual em um esforço coletivo para realização de uma tarefa</h5>
-                   </li>
-                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i05">
-                    <i class="fas fa-people-carry fa-3x"></i>
-                    <h5>Arendizado em pares</h5>
-                   </li>
-                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i06">
-                      <i class="fas fa-comments fa-3x"></i>
-                     <h5>Comunicação entre indivíduos</h5>
-                   </li>
-                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i07"> 
-                      <i class="fas fa-lightbulb fa-3x"></i>
-                      <h5>Comunicação criativa do aprendizado</h5>
-                   </li>
-                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i08"> 
-                    <i class="fas fa-tasks fa-3x"></i>
-                    <h5>Resolução criativa de problemas.</h5>
-                   </li>
-                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i09"> 
-                     <i class="fas fa-sync-alt fa-3x"></i>
-                       <h5>Transformação do conhecimento</h5>
-                   </li>                
-                 </ul>
-                 <hr>
 
 
                 <!-- Modal -->
@@ -363,7 +326,7 @@
                       <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLongTitle">Software experimentado e avaliado antes da distribuição</h5>
                         <br>
-                        <span class="badge badge-warning">Pedagógico</span>
+                        <span class="badge badge-primary">Técnico</span>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -479,215 +442,6 @@
                     </div>
                   </div>
                 </div>
-
-                <!-- Modal -->
-                <div class="modal fade" id="i01" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador do aprendizado autônomo e autodirigido</h5>
-                        <br>
-                        <span class="badge badge-danger">Indicador</span>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <p>Possibilitar ao estudante aprender por si só, definir seus objetivos de aprendizagem, planejar e monitorar seu próprio aprendizado, avaliar o progresso e tomar ações a partir do resultado.</p>
-                        <hr>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Modal -->
-                <div class="modal fade" id="i02" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador da adaptação a diferentes modos e paradigmas de aprendizagem</h5>
-                        <br>
-                        <span class="badge badge-danger">Indicador</span>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <p>Possibilitar ao estudante se adaptar a diferentes formas de aprendizado, como por exemplo, aprendizagem ativa, gamificação.</p>
-                        <hr>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Modal -->
-                <div class="modal fade" id="i03" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador do aprendizado personalizado</h5>
-                        <br>
-                        <span class="badge badge-danger">Indicador</span>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <p>Possibilitar ao estudante aprender no seu próprio ritmo e nível de proficiência.</p>
-                        <hr>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Modal -->
-                <div class="modal fade" id="i04" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador da contribuição individual em um esforço coletivo para realização de uma tarefa</h5>
-                        <br>
-                        <span class="badge badge-danger">Indicador</span>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <p>Possibilitar a colaboração do estudante no trabalho em equipe.</p>
-                        <hr>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Modal -->
-                <div class="modal fade" id="i05" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador do aprendizado em pares</h5>
-                        <br>
-                        <span class="badge badge-danger">Indicador</span>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <p>Possibilitar ao estudante compartilhar o conhecimento e aprender ensinando.</p>
-                        <hr>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Modal -->
-                <div class="modal fade" id="i06" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador da comunicação entre indivíduos</h5>
-                        <br>
-                        <span class="badge badge-danger">Indicador</span>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <p>Possibilitar ao estudante interagir e trocar informações de maneira síncrona (ex: chats, videoconferência, etc.) e assíncrona (ex: fórum de discussão, e-mail, etc.).</p>
-                        <hr>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Modal -->
-                <div class="modal fade" id="i07" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador da comunicação criativa do aprendizado</h5>
-                        <br>
-                        <span class="badge badge-danger">Indicador</span>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <p>Possibilitar ao estudante demonstrar um conhecimento adquirido (internalizado) de maneira criativa (ex: contando uma história).</p>
-                        <hr>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Modal -->
-                <div class="modal fade" id="i08" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador da resolução criativa de problemas</h5>
-                        <br>
-                        <span class="badge badge-danger">Indicador</span>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <p>Possibilitar ao estudante usar o pensamento divergente para encontrar diferentes alternativas/ideias para solução de um problema e então usar o pensamento convergente para fazer a escolha da melhor solução entre as encontradas.</p>
-                        <hr>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Modal -->
-                <div class="modal fade" id="i09" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Software como habilitador da transformação do conhecimento</h5>
-                        <br>
-                        <span class="badge badge-danger">Indicador</span>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <p>Possibilitar ao estudante externalizar (codificar/explicitar) um conhecimento adquirido ou recombinar (sintetizar) diferentes peças do conhecimento em uma nova forma.</p>
-                        <hr>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
             </div>
           <div>
         <div>
