@@ -111,7 +111,7 @@
           
           <div class="col-lg-8 col-md-10 mx-auto">            
             <div class="container-fluid determinantes-list"> 
-                <h2>Indicadores de Inovação Educacionais:</h2>
+                <h2 align="center">Indicadores de Inovação Educacionais</h2>
                  <p class="text-justify">Estão aqui listados para que saibam como os softwares serão avaliados nesta ferramenta, uma espécie de Desenvolvimento Orientado a Testes (TDD). Já sabendo quais os pontos em que os softwares serão avaliados para serem considerados inovadores, sem a necessidade de fazer toda implementação do software para depois avaliar.</p>
                  <p class="text-justify">Aqui os softwares de suporte à educação serão avaliados como habilitador das habilidades e competências do Século XXI.</p>
                  <ul class="row">
