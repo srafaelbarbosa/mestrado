@@ -29,6 +29,9 @@ Route::get('/innovation/softwares', 'InnovationController@softwares');
 Route::get('/innovation/login', 'InnovationController@login');
 
 Route::get('/innovation/return_quiz', 'InnovationController@return_quiz');
+
+Route::get('/innovation/indicators', 'InnovationController@indicators');
+
 // InnovationController
 
 

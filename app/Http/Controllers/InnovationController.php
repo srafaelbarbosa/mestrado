@@ -43,8 +43,13 @@ class InnovationController extends Controller
         return view('innovation.about');
     }
 
-     public function return_quiz()
+    public function return_quiz()
     {
         return view('innovation.return_quiz');
+    }
+
+    public function indicators()
+    {
+        return view('innovation.indicators');
     }
 }

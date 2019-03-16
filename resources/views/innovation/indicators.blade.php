@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Determinantes de Inovação</title>
+    <title>Indicadores de Inovação</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ url('/css/bootstrap.min.css') }}"  rel="stylesheet">
@@ -85,7 +85,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-heading">
-              <h1 align="center">Determinantes de Inovação para Softwares de Suporte à Educação</h1>
+              <h1 align="center">Indicadores de Inovação para Softwares de Suporte à Educação</h1>
             </div>
           </div>
         </div>
@@ -109,61 +109,50 @@
           @endif
 
           
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <h2>Determinantes de Inovação Educacionais</h2>
-            <p class="text-justify">Os Determinantes de Inovação vão servir como um guia para desenvolvimento de Softwares de suporte à educação Inovadores.
-            Estão dispostos por categorias e clicando neles, você poderá ter uma melhor descrição, a categoria e a referência. </p>
-            
-            <hr>
-            
+          <div class="col-lg-8 col-md-10 mx-auto">            
             <div class="container-fluid determinantes-list"> 
-                <ul class="row">
-                  <li class="col-md-4 col-xs-6 tecnico" data-toggle="modal" data-target="#d01">
-                    <i class="fas fa-tools fa-3x"></i>
-                    <h5>Software não requer alta capacidade de processamento computacional</h5>
-                  </li>
-                  <li class="col-md-4 col-xs-6 tecnico" data-toggle="modal" data-target="#d02">  
-                      <i class="fas fa-tools fa-3x"></i>
-                      <h5>Software tem participação ativa dos professores no processo de desenvolvimento </h5>
-                  </li>
-                  <li class="col-md-4 col-xs-6 tecnico" data-toggle="modal" data-target="#d03">
-                      <i class="fas fa-tools fa-3x"></i>  
-                      <h5>Manutenibilidade do software</h5>
-                  </li>
-                  <li class="col-md-4 col-xs-6 tecnico" data-toggle="modal" data-target="#d04">  
-                      <i class="fas fa-tools fa-3x"></i>
-                      <h5>Proficiência do professor em usar o software</h5>
-                  </li>
-                  <li class="col-md-4 col-xs-6 tecnico" data-toggle="modal" data-target="#d05">
-                      <i class="fas fa-tools fa-3x"></i>  
-                      <h5>Disponibilidade do software</h5>
-                  </li>
-                  <li class="col-md-4 col-xs-6 tecnico" data-toggle="modal" data-target="#d07"> 
-                    <i class="fas fa-tools fa-3x"></i>  
-                      <h5>Software experimentado e avaliado antes da distribuição</h5>
-                  </li>
-                  </li>
-                  <li class="col-md-4 col-xs-6 pedagogico" data-toggle="modal" data-target="#d06">
-                    <i class="fas fa-chalkboard-teacher fa-3x"></i>
-                    <h5>Software disponibiliza feedback das atividades realizadas</h5>
-                  <li class="col-md-4 col-xs-6 pedagogico" data-toggle="modal" data-target="#d08"> 
-                    <i class="fas fa-chalkboard-teacher fa-3x"></i>
-                      <h5>Software dispõe de ambiente desafiador e recompensa os estudantes.</h5>
-                  </li>
-                  <li class="col-md-4 col-xs-6 pedagogico" data-toggle="modal" data-target="#d09"> 
-                    <i class="fas fa-chalkboard-teacher fa-3x"></i>
-                      <h5>Software integra a participação dos pais no processo de aprendizagem dos estudantes</h5>
-                  </li>
-                  <li class="col-md-4 col-xs-6 pedagogico" data-toggle="modal" data-target="#d10">  
-                    <i class="fas fa-chalkboard-teacher fa-3x"></i>
-                      <h5>Software é usado para integrar ao currículo escolar.</h5>
-                  </li>
-                  <li class="col-md-4 col-xs-6 pedagogico" data-toggle="modal" data-target="#d11">  
-                    <i class="fas fa-chalkboard-teacher fa-3x"></i>
-                      <h5>Software disponibiliza ao professor a avaliação formativa do estudante.</h5>
-                  </li>               
-                </ul>
-                <hr>
+                <h2>Indicadores de Inovação Educacionais:</h2>
+                 <p class="text-justify">Estão aqui listados para que saibam como os softwares serão avaliados nesta ferramenta, uma espécie de Desenvolvimento Orientado a Testes (TDD). Já sabendo quais os pontos em que os softwares serão avaliados para serem considerados inovadores, sem a necessidade de fazer toda implementação do software para depois avaliar.</p>
+                 <p class="text-justify">Aqui os softwares de suporte à educação serão avaliados como habilitador das habilidades e competências do Século XXI.</p>
+                 <ul class="row">
+                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i01">
+                    <i class="fas fa-hiking fa-3x"></i>
+                    <h5>Aprendizado autônomo e autodirigido</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i02">  
+                       <i class="fas fa-chalkboard fa-3x"></i>
+                       <h5>Adaptação a diferentes modos e paradigmas de aprendizagem</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i03">
+                       <i class="fas fa-book-reader fa-3x"></i> 
+                       <h5>Aprendizado personalizado</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i04"> 
+                      <i class="fas fa-hands-helping fa-3x"></i>  
+                       <h5>Contribuição individual em um esforço coletivo para realização de uma tarefa</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i05">
+                    <i class="fas fa-people-carry fa-3x"></i>
+                    <h5>Arendizado em pares</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i06">
+                      <i class="fas fa-comments fa-3x"></i>
+                     <h5>Comunicação entre indivíduos</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i07"> 
+                      <i class="fas fa-lightbulb fa-3x"></i>
+                      <h5>Comunicação criativa do aprendizado</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i08"> 
+                    <i class="fas fa-tasks fa-3x"></i>
+                    <h5>Resolução criativa de problemas.</h5>
+                   </li>
+                   <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i09"> 
+                     <i class="fas fa-sync-alt fa-3x"></i>
+                       <h5>Transformação do conhecimento</h5>
+                   </li>                
+                 </ul>
+                 <hr>
 
 
                 <!-- Modal -->

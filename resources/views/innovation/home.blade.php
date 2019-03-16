@@ -55,7 +55,7 @@
               <h2 class="post-title">
                 Avaliação de Softwares de suporte à Educação pelos Indicadores de Inovação
               </h2>
-              <h3 class="post-subtitle">
+              <h3 class="post-subtitle text-justify">
                 Educadores, acessem esse link para responder sobre o Software de suporte à Educação já utilizado.
               </h3>
             </a>
@@ -66,7 +66,7 @@
               <h2 class="post-title">
                 Resultado da avaliação dos educadores para Softwares de suporte à Educação.
               </h2>
-              <h3 class="post-subtitle">
+              <h3 class="post-subtitle text-justify">
                 Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares de suporte à Educação Inovadores.
               </h3>
             </a>
@@ -76,8 +76,19 @@
               <h2 class="post-title">
                 Guia de desenvolvimento do Software de suporte à Educação pelos Determinantes de Inovação.
               </h2>
-              <h3 class="post-subtitle">
+              <h3 class="post-subtitle text-justify">
                 Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares de suporte à Educação Inovadores.
+              </h3>
+            </a>
+            <hr>
+          </div>
+          <div class="post-preview">
+            <a href="{{ url('innovation/indicators') }}">
+              <h2 class="post-title">
+                Indicadores de Inovação.
+              </h2>
+              <h3 class="post-subtitle text-justify">
+                Estão aqui listados os Indicadores de Inovação criados, estes vão servir de métricas para a análise dos softwares de suporte à educação.
               </h3>
             </a>
             <hr>
