@@ -58,7 +58,7 @@
             </div>
         </div>
         <div align="center">
-            <button type="button" class="btn btn-outline-secondary" href="#">Ver resultado</button>
+            <button type="button" class="btn btn-outline-secondary" href="{{ url('innovation/result/Scracth')}}">Ver resultado</button>
         </div>
     </div>
     <hr>
@@ -71,20 +71,20 @@
             </div>
         </div>
         <div align="center">
-            <button type="button" class="btn btn-outline-secondary" href="#">Ver resultado</button>
+            <button type="button" class="btn btn-outline-secondary" href="{{ url('innovation/result/Moodle')}}">Ver resultado</button>
         </div>
     </div>
     <hr>
     <div class="container">
-        <a href="{{ url('innovation/result/Google Suite')}}"><h3>Google Suite</h3></a>
+        <a href="{{ url('innovation/result/Google Suite (Docs, Planilhas, etc.)')}}"><h3>Google Suite</h3></a>
         <div class="row">
             <div class="col-md-10">
-                <a href="{{ url('innovation/result/Google Suite')}}"><img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/gsuite.jpg')}}" /></a>
+                <a href="{{ url('innovation/result/Google Suite (Docs, Planilhas, etc.)')}}"><img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/gsuite.jpg')}}" /></a>
                 <p class="text-justify">Com o Google Suite for Education, os professores podem criar oportunidades de aprendizagem, simplificar as tarefas administrativas e desafiar os alunos a pensar de forma crítica, tudo isso sem interromper os fluxos de trabalho em andamento.</p>
             </div>
         </div>
         <div align="center">
-            <button type="button" class="btn btn-outline-secondary" href="#">Ver resultado</button>
+            <button type="button" class="btn btn-outline-secondary" href="{{ url('innovation/result/Google Suite (Docs, Planilhas, etc.)')}}">Ver resultado</button>
         </div>
     </div>
     <hr>
@@ -97,7 +97,7 @@
             </div>
         </div>
         <div align="center">
-            <button type="button" class="btn btn-outline-secondary" href="#">Ver resultado</button>
+            <button type="button" class="btn btn-outline-secondary" href="{{ url('innovation/result/App Inventor')}}">Ver resultado</button>
         </div>
     </div>
     <hr>
@@ -110,7 +110,7 @@
             </div>
         </div>
         <div align="center">
-            <button type="button" class="btn btn-outline-secondary" href="#">Ver resultado</button>
+            <button type="button" class="btn btn-outline-secondary" href="{{ url('innovation/result/Google Classroom')}}">Ver resultado</button>
         </div>
     </div>
     <hr>
@@ -123,7 +123,7 @@
             </div>
         </div>
         <div align="center">
-            <button type="button" class="btn btn-outline-secondary" href="#">Ver resultado</button>
+            <button type="button" class="btn btn-outline-secondary" href="{{ url('innovation/result/Lightbot') }}">Ver resultado</button>
         </div>
     </div>
     <hr>

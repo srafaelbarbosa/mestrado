@@ -58,23 +58,43 @@ class InnovationController extends Controller
 
     public function result($software)
     {
-        $quiz = Quiz::where('software', $software);
-        if(is_null($quiz)){
+        $getAllQuizBySoftware = Quiz::where("software", $software);
+
+        if(is_null($getAllQuizBySoftware)){
             return redirect('quiz/home');
         }
-        $total =  50;//self::calculateNotePerRow($quiz);
-        //adicionar uma variável e depois na index
-        $compartilhamento =  10;//self::ParcialCalc($quiz);
-        $nomeSoftware = $quiz->software;
-        return view('quiz.result', ['total' => $total, 'compartilhamento' => $compartilhamento, 'nomeSoftware' => $nomeSoftware ]);
+
+        if($getAllQuizBySoftware->count() == 0){
+            return view('innovation.noresults');
+        }
+
+        $total =  $this->geTotalAverage($getAllQuizBySoftware);
+        
+        $nomeSoftware = $software;
+        return view('innovation.result', ['total' => $total,  'nomeSoftware' => $nomeSoftware ]);
     }
 
-    private static function calculateNotePerRow($quiz)
+    private function geTotalAverage($allQuiz)
+    {
+        $total = 0;
+        $totalAverageNotes= 0;
+
+        foreach ($allQuiz->get() as $key => $quiz) {
+            $totalAverageNotes += $this->getAverageNoteQuiz($quiz->getAttributes());
+            $total ++;
+        }
+
+        $average = $totalAverageNotes/$total;
+
+        return $average;
+    }
+
+    private function getAverageNoteQuiz($quiz)
     {
         $total  = 0;
 
-        foreach ($quiz->getAttributes() as $key => $value) {
-            
+        foreach ($quiz as $key => $value) {
+                
             if($value == 4){
                 $total += 1;
             }
@@ -86,11 +106,6 @@ class InnovationController extends Controller
         
         $total = $total/9;
         return round($total,2);
-    }
-
-    private static function getMediaFromAllNotes($totalQuiz)
-    {
-        return true;
     }
 
     public function indicators()
