@@ -50,15 +50,16 @@
     <!-- Main Content -->
 
     <div class="container">
-        <a href="{{ url('innovation/result/Scracth')}}"><h3>Scracth</h3></a>
+        <a href="{{ url('innovation/result/Scratch')}}"><h3>Scratch</h3></a>
         <div class="row">
             <div class="col-md-10">
-                <a href="url('innovation/result/Scracth')}}"><img style='float:left;width:250px;height:250px; margin-right:10px;' src="{{ url('/img/scratch.jpg')}}" /></a>
+                <img style='float:left;width:250px;height:250px; margin-right:10px;' src="{{ url('/img/scratch.jpg')}}" />
                 <p class="text-justify">Com o Scratch, pode programar as suas próprias estórias, jogos e animações interactivos – e partilhar as suas criações com outros na comunidade em linha. O Scratch ajuda os jovens a pensar de forma criativa, a raciocinar sistematicamente e a trabalhar colaborativamente — competências essenciais à vida no século XXI. O Scratch é um projecto do Lifelong Kindergarten Group do MIT Media Lab. É disponibilizado gratuitamente.</p>
             </div>
         </div>
         <div align="center">
-            <button type="button" class="btn btn-outline-secondary" href="{{ url('innovation/result/Scracth')}}">Ver resultado</button>
+            <a href="{{ url('innovation/result/Scratch')}}" class="btn btn-outline-secondary"> Ver resultado </a>
+
         </div>
     </div>
     <hr>
@@ -66,12 +67,12 @@
         <a href="{{ url('innovation/result/Moodle')}}"><h3>Moodle</h3></a>
         <div class="row">
             <div class="col-md-10">
-                <a href="{{ url('innovation/result/Moodle')}}"><img style='float:left;width:250px;height:250px; margin-right:10px;' src="{{ url('/img/moodle.jpg')}}" /></a>
+                <img style='float:left;width:250px;height:250px; margin-right:10px;' src="{{ url('/img/moodle.jpg')}}" />
                 <p class="text-justify">O Moodle é uma plataforma de aprendizado projetada para fornecer aos educadores, administradores e alunos um sistema robusto, seguro e integrado para criar ambientes de aprendizado personalizados.</p>
             </div>
         </div>
         <div align="center">
-            <button type="button" class="btn btn-outline-secondary" href="{{ url('innovation/result/Moodle')}}">Ver resultado</button>
+            <a href="{{ url('innovation/result/Moodle')}}" class="btn btn-outline-secondary"> Ver resultado </a>
         </div>
     </div>
     <hr>
@@ -79,12 +80,12 @@
         <a href="{{ url('innovation/result/Google Suite (Docs, Planilhas, etc.)')}}"><h3>Google Suite</h3></a>
         <div class="row">
             <div class="col-md-10">
-                <a href="{{ url('innovation/result/Google Suite (Docs, Planilhas, etc.)')}}"><img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/gsuite.jpg')}}" /></a>
+                <img style='float:left;width:200px;height:200px; margin-right:10px;' src="{{ url('/img/gsuite.jpg')}}" />
                 <p class="text-justify">Com o Google Suite for Education, os professores podem criar oportunidades de aprendizagem, simplificar as tarefas administrativas e desafiar os alunos a pensar de forma crítica, tudo isso sem interromper os fluxos de trabalho em andamento.</p>
             </div>
         </div>
         <div align="center">
-            <button type="button" class="btn btn-outline-secondary" href="{{ url('innovation/result/Google Suite (Docs, Planilhas, etc.)')}}">Ver resultado</button>
+            <a href="{{ url('innovation/result/Google Suite (Docs, Planilhas, etc.)')}}" class="btn btn-outline-secondary"> Ver resultado </a>
         </div>
     </div>
     <hr>
@@ -92,12 +93,12 @@
         <a href="{{ url('innovation/result/App Inventor')}}"><h3>App Inventor</h3></a>
         <div class="row">
             <div class="col-md-10">
-                <a href="{{ url('innovation/result/App Inventor')}}"><img style='float:left;width:250px;height:250px; margin-right:10px;' src="{{ url('/img/appinventor.jpg')}}" /></a>
+                <img style='float:left;width:250px;height:250px; margin-right:10px;' src="{{ url('/img/appinventor.jpg')}}" />
                 <p class="text-justify">O MIT App Inventor é um ambiente de programação visual e intuitivo que permite que todos - até mesmo crianças - criem aplicativos totalmente funcionais para smartphones e tablets. Ferramenta baseada em blocos facilita a criação de aplicativos complexos e de alto impacto em um tempo significativamente menor do que os ambientes de programação tradicionais.</p>
             </div>
         </div>
         <div align="center">
-            <button type="button" class="btn btn-outline-secondary" href="{{ url('innovation/result/App Inventor')}}">Ver resultado</button>
+            <a href="{{ url('innovation/result/App Inventor')}}" class="btn btn-outline-secondary"> Ver resultado </a>
         </div>
     </div>
     <hr>
@@ -105,12 +106,12 @@
         <a href="{{ url('innovation/result/Google Classroom')}}"><h3>Google Classroom</h3></a>
         <div class="row">
             <div class="col-md-10">
-                <a href="{{ url('innovation/result/Google Classroom')}}"><img style='float:left;width:250px;height:250px; margin-right:10px;' src="{{ url('/img/gclassroom.jpg')}}" /></a>
+                <img style='float:left;width:250px;height:250px; margin-right:10px;' src="{{ url('/img/gclassroom.jpg')}}" />
                 <p class="text-justify">Google Classroom é uma ferramenta simplificada e fácil de usar que ajuda os professores a gerenciar os cursos. Com o Google Classroom, os educadores podem criar turmas, distribuir tarefas, avaliar e enviar feedback e ver tudo em um só lugar.</p>
             </div>
         </div>
         <div align="center">
-            <button type="button" class="btn btn-outline-secondary" href="{{ url('innovation/result/Google Classroom')}}">Ver resultado</button>
+            <a href="{{ url('innovation/result/Google Classroom')}}" class="btn btn-outline-secondary"> Ver resultado </a>
         </div>
     </div>
     <hr>
@@ -118,12 +119,12 @@
         <a href="{{ url('innovation/result/Lightbot')}}"><h3>Lightbot</h3></a>
         <div class="row">
             <div class="col-md-10">
-                <a href="{{ url('innovation/result/Lightbot')}}"><img style='float:left;width:250px;height:250px; margin-right:10px;' src="{{ url('/img/lightBot.jpg')}}" /></a>
+                <img style='float:left;width:250px;height:250px; margin-right:10px;' src="{{ url('/img/lightBot.jpg')}}" />
                 <p class="text-justify">LightBot é um jogo de quebra-cabeça baseado em codificação; secretamente ensina lógica de programação enquanto se joga. Tem sido jogado por mais de 20 milhões de crianças e tem sido usado por dezenas de milhares de professores em todo o mundo.</p>
             </div>
         </div>
         <div align="center">
-            <button type="button" class="btn btn-outline-secondary" href="{{ url('innovation/result/Lightbot') }}">Ver resultado</button>
+            <a href="{{ url('innovation/result/Lighbot')}}" class="btn btn-outline-secondary"> Ver resultado </a>
         </div>
     </div>
     <hr>

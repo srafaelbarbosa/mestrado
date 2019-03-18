@@ -52,7 +52,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
-                    <h4> <span class="label label-default">Ainda Não há resultados para esse software</span></h4>                  
+                    <h4> <span class="label label-default">Ainda não há resultados para esse software.</span></h4>                  
                 </div>
             </div>
             <hr>

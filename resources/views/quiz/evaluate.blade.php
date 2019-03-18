@@ -97,7 +97,7 @@
                     <div class="form-group">
                       <select name="software" class="form-control" id="" required>
                         <option value="">Selecione</option>
-                        <option>Scracth</option>
+                        <option>Scratch</option>
                         <option>Moodle</option>
                         <option>Google Suite (Docs, Planilhas, etc.)</option>
                         <option>App Inventor</option>                        
