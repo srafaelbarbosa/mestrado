@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Indicadores de Inovação</title>
+    <title>Avaliação de Softwares de Suporte à Educação</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ url('/css/bootstrap.min.css') }}"  rel="stylesheet">
@@ -86,7 +86,7 @@
             <h3> <span class="label label-default">Avaliação de Softwares Educacionais</span></h3>
             
             <p>Nesta etapa você deve selecionar qual Software será avaliado, de acordo com o e-mail recebido.</p>
-            <p>Após a leitura, selecione o nível de quanto o software atende o Indicador de Inovação, considerando as seguintes opções: 1 - Não Atende; 2 - Não sei; 3 - Atende Parcialmente; 4 - Atende Plenamente.</p>
+            <p>Após a leitura, selecione o nível de quanto o software atende o Indicador de Inovação, considerando as seguintes opções: 1 - Não sei; 2 - Não Atende; 3 - Atende Parcialmente; 4 - Atende Plenamente.</p>
             <hr> 
             <form method="POST" action="/quiz/evaluatesoftware">
              @csrf
@@ -113,7 +113,7 @@
                 <li class="row form-group mx-0 margintop">
                   <h5 class="col-md-12 col-12 marginbottom">[I01] Software como habilitador do aprendizado autônomo e autodirigido</h5>
                   
-                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Atende</label>
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não sei</label>
                   <div class="radio col-md-1 col-1">
                     <input type="radio" name="question1" value="1" required> 
                     <label for="question1">1</label>
@@ -139,7 +139,7 @@
 
                   <h5 class="col-md-12 col-12 marginbottom">[I02] Software como habilitador da adaptação a diferentes modos e paradigmas de aprendizagem</h5>
                   
-                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Atende</label>
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não sei</label>
                   <div class="radio col-md-1 col-1">
                     <input type="radio" name="question2" value="1" required> 
                     <label for="question2">1</label>
@@ -165,7 +165,7 @@
                 <li class="row form-group mx-0 margintop">
                   <h5 class="col-md-12 col-12 marginbottom">[I03] Software como habilitador do aprendizado personalizado</h5>
                   
-                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Atende</label>
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não sei</label>
                   <div class="radio col-md-1 col-1">
                     <input type="radio" name="question3" value="1" required> 
                     <label for="question3">1</label>
@@ -190,7 +190,7 @@
                 <li class="row form-group mx-0 margintop">
                   <h5 class="col-md-12 col-12 marginbottom">[I04] Software como habilitador da contribuição individual em um esforço coletivo para realização de uma tarefa</h5>
                   
-                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Atende</label>
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não sei</label>
                   <div class="radio col-md-1 col-1">
                     <input type="radio" name="question4" value="1" required> 
                     <label for="question4">1</label>
@@ -214,7 +214,7 @@
                 <li class="row form-group mx-0 margintop">
                   <h5 class="col-md-12 col-12 marginbottom">[I05] Software como habilitador do aprendizado em pares</h5>
                   
-                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Atende</label>
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não sei</label>
                   <div class="radio col-md-1 col-1">
                     <input type="radio" name="question5" value="1" required> 
                     <label for="question5">1</label>
@@ -239,7 +239,7 @@
                 <li class="row form-group mx-0 margintop">
                   <h5 class="col-md-12 col-12 marginbottom">[I06] Software como habilitador da comunicação entre indivíduos</h5>
                   
-                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Atende</label>
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não sei</label>
                   <div class="radio col-md-1 col-1">
                     <input type="radio" name="question6" value="1" required> 
                     <label for="question6">1</label>
@@ -264,7 +264,7 @@
                 <li class="row form-group mx-0 margintop">
                   <h5 class="col-md-12 col-12 marginbottom">[I07] Software como habilitador da comunicação criativa do aprendizado</h5>
                   
-                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Atende</label>
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não sei</label>
                   <div class="radio col-md-1 col-1">
                     <input type="radio" name="question7" value="1" required> 
                     <label for="question7">1</label>
@@ -289,7 +289,7 @@
                 <li class="row form-group mx-0 margintop">
                   <h5 class="col-md-12 col-12 marginbottom">[I08] Software como habilitador da resolução criativa de problemas</h5>
                   
-                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Atende</label>
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não sei</label>
                   <div class="radio col-md-1 col-1">
                     <input type="radio" name="question8" value="1" required> 
                     <label for="question8">1</label>
@@ -314,7 +314,7 @@
                 <li class="row form-group mx-0 margintop">
                   <h5 class="col-md-12 col-12 marginbottom">[I09] Software como habilitador da transformação do conhecimento</h5>
                   
-                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não Atende</label>
+                  <label class="col-md-3 col-3 mobile-fs75em" for="1">Não sei</label>
                   <div class="radio col-md-1 col-1">
                     <input type="radio" name="question9" value="1" required> 
                     <label for="question9">1</label>
