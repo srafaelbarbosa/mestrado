@@ -52,7 +52,6 @@
           <div class="post-preview">
             <h3>Agradecemos sua participação para avaliação dos Softwares de suporte à Educação! :)</h3>
             <br>
-            <h3>O link para o resultado de todas as análises pode ser encontrado na página inicial.</h3>
               <hr>
                 <div align="center"> 
                   <div>
