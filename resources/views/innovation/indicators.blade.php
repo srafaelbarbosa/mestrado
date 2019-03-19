@@ -133,7 +133,7 @@
                    </li>
                    <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i05">
                     <i class="fas fa-people-carry fa-3x"></i>
-                    <h5>Arendizado em pares</h5>
+                    <h5>Aprendizado em pares</h5>
                    </li>
                    <li class="col-md-4 col-xs-6 indicador" data-toggle="modal" data-target="#i06">
                       <i class="fas fa-comments fa-3x"></i>
