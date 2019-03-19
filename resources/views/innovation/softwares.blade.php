@@ -119,7 +119,7 @@
         <a href="{{ url('innovation/result/Lightbot')}}"><h3>Lightbot</h3></a>
         <div class="row">
             <div class="col-md-10">
-                <img style='float:left;width:250px;height:250px; margin-right:10px;' src="{{ url('/img/lightBot.jpg')}}" />
+                <img style='float:left;width:250px;height:250px; margin-right:10px;' src="{{ url('/img/lightbot.jpg')}}" />
                 <p class="text-justify">LightBot é um jogo de quebra-cabeça baseado em codificação; secretamente ensina lógica de programação enquanto se joga. Tem sido jogado por mais de 20 milhões de crianças e tem sido usado por dezenas de milhares de professores em todo o mundo.</p>
             </div>
         </div>
