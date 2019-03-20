@@ -47,3 +47,7 @@ Route::post('/quiz/evaluatesoftware', 'QuizController@evaluatesoftware');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('home', function () {
+    return redirect('/innovation/home');
+});
