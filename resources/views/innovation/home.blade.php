@@ -51,6 +51,17 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-preview">
+            <a href="{{ url('innovation/indicators') }}">
+              <h2 class="post-title">
+                Indicadores de Inovação.
+              </h2>
+              <h3 class="post-subtitle text-justify">
+                Estão aqui listados os Indicadores de Inovação criados, estes vão servir de métricas para a análise dos softwares de suporte à educação.
+              </h3>
+            </a>
+            <hr>
+          </div>
+          <div class="post-preview">
             <a href="{{ url('quiz/evaluate') }}">
               <h2 class="post-title">
                 Avaliação de Softwares de suporte à Educação pelos Indicadores de Inovação
@@ -78,17 +89,6 @@
               </h2>
               <h3 class="post-subtitle text-justify">
                 Aqui estão dispostos Determinantes de Inovação para guia do desenvolvimento de Softwares de suporte à Educação Inovadores.
-              </h3>
-            </a>
-            <hr>
-          </div>
-          <div class="post-preview">
-            <a href="{{ url('innovation/indicators') }}">
-              <h2 class="post-title">
-                Indicadores de Inovação.
-              </h2>
-              <h3 class="post-subtitle text-justify">
-                Estão aqui listados os Indicadores de Inovação criados, estes vão servir de métricas para a análise dos softwares de suporte à educação.
               </h3>
             </a>
             <hr>
