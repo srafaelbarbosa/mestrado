@@ -87,6 +87,7 @@
             
             <p>Nesta etapa você deve selecionar qual Software será avaliado, de acordo com o e-mail recebido.</p>
             <p>Após a leitura, selecione o nível de quanto o software atende o Indicador de Inovação, considerando as seguintes opções: 1 - Não Atende; 2 - Não Sei; 3 - Atende Parcialmente; 4 - Atende Plenamente.</p>
+            <p>A descrição dos Indicadores está melhor explicada <a href="{{ url('innovation/indicators') }}" target="_blank">nessa página</a></p>
             <hr> 
             <form method="POST" action="/quiz/evaluatesoftware">
              @csrf
