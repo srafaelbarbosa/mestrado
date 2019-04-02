@@ -61,7 +61,7 @@
             <div class="row">
                 <div class="align-self-center">
                     <h3>Média das Avaliações dos Indicadores de Inovação:</h3>
-                    <p>A nota máxima que um indicador pode ter é 4, onde o avaliador concordou totalmente com o indicador avaliado.</p>
+                    <p>A nota dos indicadores é avaliada de 1 a 4, então a nota máxima que um Indicador de Inovação pode ter é 4.</p>
                 </div>
                 
                 <ul class="list-group">
