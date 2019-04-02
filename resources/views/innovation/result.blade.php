@@ -58,47 +58,47 @@
             </div>
             <hr>
 
-            <div class="row">
+            <div class="container">
                 <div class="align-self-center">
-                    <h3>Média das Avaliações dos Indicadores de Inovação:</h3>
-                    <p>A nota dos indicadores é avaliada de 1 a 4, então a nota máxima que um Indicador de Inovação pode ter é 4.</p>
+                    <h3 align="center">Média das Avaliações dos Indicadores de Inovação:</h3>
+                    <p>A avaliação dos Indicadores de Inovação como habilitadores é entre 1 e 4.</p>
                 </div>
                 
                 <ul class="list-group">
                   <li class="list-group-item d-flex justify-content-between align-items-center">
-                    [I01] Software como habilitador do aprendizado autônomo e autodirigido: 
+                    [I01] Aprendizado autônomo e autodirigido: 
                     <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 1) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
-                    [I02] Software como habilitador da adaptação a diferentes modos e paradigmas de aprendizagem:
+                    [I02] Adaptação a diferentes modos e paradigmas de aprendizagem:
                     <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 2) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
-                    [I03] Software como habilitador do aprendizado personalizado:
+                    [I03] Aprendizado personalizado:
                     <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 3) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
-                    [I04] Software como habilitador da contribuição individual em um esforço coletivo para realização de uma tarefa:
+                    [I04] Contribuição individual em um esforço coletivo para realização de uma tarefa:
                     <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 4) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
-                    [I05] Software como habilitador do aprendizado em pares:
+                    [I05] Aprendizado em pares:
                     <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 5) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
-                    [I06] Software como habilitador da comunicação entre indivíduos:
+                    [I06] Comunicação entre indivíduos:
                     <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 6) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
-                    [I07] Software como habilitador da comunicação criativa do aprendizado:
+                    [I07] Comunicação criativa do aprendizado:
                     <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 7) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
-                    [I08] Software como habilitador da resolução criativa de problemas:
+                    [I08] Resolução criativa de problemas:
                     <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 8) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
-                    [I09] Software como habilitador da transformação do conhecimento:
+                    [I09] Transformação do conhecimento:
                     <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 9) }}</span>
                   </li>
                 </ul>
