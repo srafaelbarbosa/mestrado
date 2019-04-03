@@ -56,7 +56,8 @@
                 <div align="center"> 
                   <div>
                   <a href="{{ url('innovation/home') }}" class="btn btn-primary"> Início </a>
-                  <a href="{{ url('innovation/softwares') }}" class="btn btn-primary"> Resultado</a>
+                  <a href="{{ url('quiz/evaluate') }}" class="btn btn-primary"> Avaliar outro Software </a>
+                  <a href="{{ url('innovation/softwares') }}" class="btn btn-primary"> Resultados das avaliações</a>
                   <!-- <button type="submit" class="btn btn-primary">Refazer</button> -->
                   </div>
 
