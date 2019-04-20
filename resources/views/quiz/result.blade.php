@@ -63,44 +63,45 @@
             <div class="row">
                 <div class="align-self-center">
                     <h3>Média das Avaliações dos Indicadores de Inovação:</h3>
+                    <p>A nota máxima que um indicador pode ter é 4, onde o avaliador concordou totalmente com o indicador avaliado.</p>
                 </div>
-                <br><br><br>
+                
                 <ul class="list-group">
                   <li class="list-group-item d-flex justify-content-between align-items-center">
                     [I01] Software como habilitador do aprendizado autônomo e autodirigido: 
-                    <span class="badge badge-primary badge-pill">{{ $compartilhamento }}</span>
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 1) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
                     [I02] Software como habilitador da adaptação a diferentes modos e paradigmas de aprendizagem:
-                    <span class="badge badge-primary badge-pill">2</span>
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 2) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
                     [I03] Software como habilitador do aprendizado personalizado:
-                    <span class="badge badge-primary badge-pill">1</span>
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 3) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
                     [I04] Software como habilitador da contribuição individual em um esforço coletivo para realização de uma tarefa:
-                    <span class="badge badge-primary badge-pill">1</span>
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 4) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
                     [I05] Software como habilitador do aprendizado em pares:
-                    <span class="badge badge-primary badge-pill">1</span>
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 5) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
                     [I06] Software como habilitador da comunicação entre indivíduos:
-                    <span class="badge badge-primary badge-pill">1</span>
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 6) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
                     [I07] Software como habilitador da comunicação criativa do aprendizado:
-                    <span class="badge badge-primary badge-pill">1</span>
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 7) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
                     [I08] Software como habilitador da resolução criativa de problemas:
-                    <span class="badge badge-primary badge-pill">1</span>
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 8) }}</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">
                     [I09] Software como habilitador da transformação do conhecimento:
-                    <span class="badge badge-primary badge-pill">1</span>
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 9) }}</span>
                   </li>
                 </ul>
             </div>

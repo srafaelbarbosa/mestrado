@@ -58,10 +58,58 @@
             </div>
             <hr>
 
+            <div class="container">
+                <div class="align-self-center">
+                    <h3 align="center">Média das Avaliações dos Indicadores de Inovação:</h3>
+                    <p>A avaliação dos Indicadores de Inovação como habilitadores é entre 1 e 4.</p>
+                </div>
+                
+                <ul class="list-group">
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    [I01] Aprendizado autônomo e autodirigido: 
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 1) }}</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    [I02] Adaptação a diferentes modos e paradigmas de aprendizagem:
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 2) }}</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    [I03] Aprendizado personalizado:
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 3) }}</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    [I04] Contribuição individual em um esforço coletivo para realização de uma tarefa:
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 4) }}</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    [I05] Aprendizado em pares:
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 5) }}</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    [I06] Comunicação entre indivíduos:
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 6) }}</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    [I07] Comunicação criativa do aprendizado:
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 7) }}</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    [I08] Resolução criativa de problemas:
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 8) }}</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    [I09] Transformação do conhecimento:
+                    <span class="badge badge-primary badge-pill">{{  mediaQuestao($nomeSoftware, 9) }}</span>
+                  </li>
+                </ul>
+            </div>
+
+            <br>
            
             <div align="center">
                 <a href="{{ url('innovation/softwares') }}" class="btn btn-primary"> Voltar </a>
-            </div>
+            </div> 
+            <hr>
         </div>
     <article>
 
