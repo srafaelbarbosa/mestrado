@@ -51,19 +51,6 @@ function mediaQuestao($software, $question){
 	}
 	
 	return  number_format($total/$i, 2, '.', '');
-
-
-
 }
-	
-
-
-
-
-
-
-
-
-
 
  ?>
