@@ -39,8 +39,6 @@ Route::get('/innovation/indicators', 'InnovationController@indicators');
 // QuizController
 Route::get('/quiz/evaluate', 'QuizController@evaluate');
 
-Route::get('/quiz/result/{id}', 'QuizController@result');
-
 Route::post('/quiz/evaluatesoftware', 'QuizController@evaluatesoftware');
 // QuizController
 
