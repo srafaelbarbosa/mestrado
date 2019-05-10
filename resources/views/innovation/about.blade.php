@@ -54,7 +54,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <img src="{{ url('/img/rafael3.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
           <p class="text-justify">Sou Rafael Santos, graduado em Licenciatura em Computação (UFRPE), mestrando no programa de Pós Graduação em Informática Aplicada (pela UFRPE também), minha pesquisa se baseia no desenvolvimento de uma abordagem para avaliação de softwares de suporte à educação (gerou essa ferramenta). Trabalhei com desenvolvimento de sistemas web, também fui professor de desenvolvimento de jogos para crianças e adolescentes e agora concluindo o mestrado. Nos tempos livres jogando (me estressando) dotinha ou FIFA e, quando tem episódio novo, assistindo Vikings. :)</p>
-          <p class="text-justify">E essa galerinha gente boa foi quem me ajudou a concluir essa ferramenta de alguma forma. =)</p>
+          <p class="text-justify">E essa galerinha gente boa foi quem me ajudou a construir essa ferramenta de alguma forma. =)</p>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
@@ -81,7 +81,7 @@
       </div>
           <hr>
           <img src="{{ url('/img/ricardo.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
-          <p class="text-justify">Doutor em Ciência da Computação (2008) pelo Centro de Informática (CIn) da Universidade Federal de Pernambuco (UFPE). Professor Associado do Departamento de Computação (DC) da Universidade Federal Rural de Pernambuco (UFRPE). Professor Permanente do Programa de Pós-graduação em Informática Aplicada (PPGIA) da UFRPE. Diretor de TI da UFRPE entre Junho/2012 a Dezembro/2017. Atua nas seguintes áreas: Governança Ágil, Inovação em Soluções de Software, Inovação em Educação, Gestão do Conhecimento e Gestão de Produtos de Software.</p>
+          <p class="text-justify">Ricardo Souza, doutor em Ciência da Computação (2008) pelo Centro de Informática (CIn) da Universidade Federal de Pernambuco (UFPE). Professor Associado do Departamento de Computação (DC) da Universidade Federal Rural de Pernambuco (UFRPE). Professor Permanente do Programa de Pós-graduação em Informática Aplicada (PPGIA) da UFRPE. Diretor de TI da UFRPE entre Junho/2012 a Dezembro/2017. Atua nas seguintes áreas: Governança Ágil, Inovação em Soluções de Software, Inovação em Educação, Gestão do Conhecimento e Gestão de Produtos de Software.</p>
           <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
@@ -134,7 +134,7 @@
         </div>
             <hr>
           <img src="{{ url('/img/dyego.jpg')}}" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
-            <p class="text-justify">Licenciado em Computação pela Universidade Federal Rural de Pernambuco (UFRPE), foi professor substituto do Departamento de Educação da mesma instituição. É mestre em Ciência da Computação pela Universidade Federal de Pernambuco (UFPE). Integrante do projeto DEMULTS (Desenvolvimento Educacional de Multimídias Sustentáveis) desde 2012 e líder do grupo de pesquisa de mesmo nome desde 2017. Atualmente, é doutorando em Ciência da Computação pela UFPE e atua principalmente nos seguintes temas: Informática na Educação, Educação em Computação e Interação Humano-Computador. Possui experiência em consultoria de Design de Experiência do Usuário e Desenvolvimento Front-End.</p>
+            <p class="text-justify">Dyego Carlos, licenciado em Computação pela Universidade Federal Rural de Pernambuco (UFRPE), foi professor substituto do Departamento de Educação da mesma instituição. É mestre em Ciência da Computação pela Universidade Federal de Pernambuco (UFPE). Integrante do projeto DEMULTS (Desenvolvimento Educacional de Multimídias Sustentáveis) desde 2012 e líder do grupo de pesquisa de mesmo nome desde 2017. Atualmente, é doutorando em Ciência da Computação pela UFPE e atua principalmente nos seguintes temas: Informática na Educação, Educação em Computação e Interação Humano-Computador. Possui experiência em consultoria de Design de Experiência do Usuário e Desenvolvimento Front-End.</p>
             <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">

@@ -40,7 +40,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-heading">
-              <h1 align="center">Guia de Desenvolvimento de Softwares Educacionais por meio de Determinantes de Inovação</h1>
+              <h1 align="center">Resultado da Avaliação dos Softwares de Suporte à Educação</h1>
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
-                    <h4> <span class="label label-default">Resultado da avaliação do Software: {{ $nomeSoftware }}</span></h4>
+                    <h4> <span class="label label-default">Índice de Inovação do Software: {{ $nomeSoftware }}</span></h4>
                     <div id="chartdiv"></div>
                 </div>
             </div>
@@ -140,6 +140,7 @@
         axis.strictMinMax = true;
         axis.renderer.grid.template.stroke = new am4core.InterfaceColorSet().getFor("background");
         axis.renderer.grid.template.strokeOpacity = 0.3;
+        
 
         var colorSet = new am4core.ColorSet();
 
