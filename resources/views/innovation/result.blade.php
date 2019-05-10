@@ -52,7 +52,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
-                    <h4> <span class="label label-default">Índice de Inovação do Software: {{ $nomeSoftware }}</span></h4>
+                    <h4> <span class="label label-default">Índice de Inovação em Educação do Software: {{ $nomeSoftware }}</span></h4>
                     <div id="chartdiv"></div>
                 </div>
             </div>
