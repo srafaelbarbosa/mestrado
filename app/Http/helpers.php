@@ -11,39 +11,39 @@ function mediaQuestao($software, $question){
 	foreach ($answers as $item) {
 		switch ($question){
 		  case 1:
-		    $total += $item->question1;
+		    $total += countPoints($item->question1);
 		    $i++;
 		    break;
 		  case 2:
-		    $total += $item->question2;
+		    $total += countPoints($item->question2);
 		    $i++;
 		    break;
 		  case 3:
-		    $total += $item->question3;
+		    $total += countPoints($item->question3);
 		    $i++;
 		    break;
 		  case 4:
-		    $total += $item->question4;
+		    $total += countPoints($item->question4);
 		    $i++;
 		    break;
 		  case 5:
-		    $total += $item->question5;
+		    $total += countPoints($item->question5);
 		    $i++;
 		    break;
 		  case 6:
-		    $total += $item->question6;
+		    $total += countPoints($item->question6);
 		    $i++;
 		    break;
 		  case 7:
-		    $total += $item->question7;
+		    $total += countPoints($item->question7);
 		    $i++;
 		    break;
 		  case 8:
-		    $total += $item->question8;
+		    $total += countPoints($item->question8);
 		    $i++;
 		    break;
 		  case 9:
-		    $total += $item->question9;
+		    $total += countPoints($item->question9);
 		    $i++;
 		    break;
 		}
@@ -52,5 +52,19 @@ function mediaQuestao($software, $question){
 	
 	return  number_format($total/$i, 2, '.', '');
 }
+
+function countPoints($value){
+
+	if($value === 4){
+		return 1; 
+	}
+
+	if($value === 3){
+		return 0.5;
+	}
+
+	return 0;
+}
+
 
  ?>
