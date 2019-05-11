@@ -83,7 +83,7 @@ class InnovationController extends Controller
             $totalAverageNotes += $this->getAverageNoteQuiz($quiz->getAttributes());
             $total ++;
         }
-
+       
         $average = $totalAverageNotes/$total;
 
         return $average;
@@ -94,17 +94,19 @@ class InnovationController extends Controller
         $total  = 0;
 
         foreach ($quiz as $key => $value) {
+            if($key != "id" && $key != "software" && $key !="user_id" ){
+                if($value == 4){
+                    $total += 1;
+                }
                 
-            if($value == 4){
-                $total += 1;
-            }
-            
-            if($value == 3){
-                $total += 0.5;
+                if($value == 3){
+                    $total += 0.5;
+                }
             }
         }
-        
+
         $total = $total/9;
+
         return round($total,2);
     }
 
