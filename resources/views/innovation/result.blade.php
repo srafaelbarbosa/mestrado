@@ -61,7 +61,7 @@
             <div class="container">
                 <div class="align-self-center">
                     <h3 align="center">Média das Avaliações dos Indicadores de Inovação:</h3>
-                    <p>A avaliação dos Indicadores de Inovação como habilitadores é entre 1 e 4.</p>
+                    <p>A avaliação individual dos Indicadores de Inovação em Educação como habilitadores.</p>
                 </div>
                 
                 <ul class="list-group">
